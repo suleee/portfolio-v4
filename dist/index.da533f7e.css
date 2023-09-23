@@ -1,0 +1,151 @@
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px)scale(.2);
+  }
+
+  100% {
+    transform: translateX(0)scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(2000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slidedDown {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(3000px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.overlay {
+  z-index: -10;
+  background-color: #00f;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
+.home {
+  background-color: #fff;
+  height: 100vh;
+  transition: all .8s;
+  animation: .8s forwards expand;
+  position: relative;
+}
+
+.herobanner {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.herobanner h1, .herobanner .profile {
+  font-family: Noto Sans, sans-serif;
+  animation: 2s .5s forwards slideUp;
+  transform: translateY(1000px);
+}
+
+.profile img {
+  border-radius: 8px;
+}
+
+.menu {
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+  height: 62px;
+  animation: 3s forwards slidedDown;
+  position: sticky;
+  top: 0;
+}
+
+.works {
+  animation: 1.8s ease-in-out .8s forwards slideUp;
+  transform: translateY(900px);
+}
+
+.works img {
+  border-radius: 8px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Noto Sans, sans-serif;
+}
+
+.home span {
+  color: #00f;
+}
+
+.about, .works {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.footer img {
+  border-radius: 6px;
+  max-width: 40px;
+}
+
+.footer img:hover {
+  border-radius: 8px;
+  width: 38px;
+}
+
+.about {
+  color: #fff;
+  background-color: #262626;
+}
+
+.about .icon-img {
+  max-width: 80px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
+.about .download-btn {
+  color: #000;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 0 20px;
+  padding: 16px 20px;
+}
+
+.about .download-btn:hover {
+  background-color: #00f;
+}
+
+.about .download-icon {
+  width: 16px;
+}
+
+.space-bottom {
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=index.da533f7e.css.map */

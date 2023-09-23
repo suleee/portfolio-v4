@@ -1,0 +1,137 @@
+.herobanner-bg {
+  background-color: #f5f5f5;
+}
+
+.herobanner {
+  text-align: center;
+  background-image: url("p-herobanner3.35a92f7c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+@media (width >= 350px) {
+  .herobanner {
+    max-height: 200px;
+  }
+}
+
+@media (width >= 768px) {
+  .herobanner {
+    max-height: 300px;
+  }
+}
+
+@media (width >= 900px) {
+  .herobanner {
+    max-height: 400px;
+  }
+}
+
+@media (width >= 1400px) {
+  .herobanner {
+    width: 70%;
+    max-height: 450px;
+    margin: 0 auto;
+  }
+}
+
+.bg1 {
+  background-color: #fcf9f2;
+}
+
+hr {
+  border-top: 1px solid #cecece;
+  margin-bottom: 24px;
+}
+
+.intro, .challenge, .research, .problem, .solution, .ui, .solved, .learning, .ending {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.learning-text {
+  color: #fff;
+  background-color: #0f253a;
+  padding: 40px 100px 0;
+}
+
+.learning-img {
+  background: linear-gradient(to top, #f3f3f3, #f3f3f3 50% 61%, #0f253a 61%);
+}
+
+.problem2-panel {
+  filter: drop-shadow(0 2px 3px #00000040);
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 32px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrong-icon {
+  background: url("wrong-icon.3c2c14dc.png") 0 0 no-repeat;
+  padding-bottom: 24px;
+  padding-left: 44px;
+}
+
+.panel-bg {
+  filter: drop-shadow(0 2px 3px #00000040);
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 32px;
+}
+
+.primary-btn {
+  text-align: center;
+  color: #fff;
+  background-color: #286cb2;
+  border-radius: 4px;
+  height: 40px;
+  padding: 4px;
+}
+
+.secondary-btn {
+  text-align: center;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  height: 40px;
+  padding: 4px;
+}
+
+.third-btn {
+  text-align: center;
+  color: #fff;
+  background-color: #00a624;
+  border-radius: 4px;
+  height: 40px;
+  padding: 4px;
+}
+
+.link {
+  color: #286cb2;
+  font-weight: 600;
+}
+
+.icon-title {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.footer {
+  padding-bottom: 160px;
+}
+
+/*# sourceMappingURL=paysheperd.80e51aff.css.map */

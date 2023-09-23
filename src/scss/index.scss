@@ -1,0 +1,158 @@
+@import "library";
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(0.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(2000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slidedDown {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(3000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: -10;
+  background-color: blue;
+}
+
+.home {
+  height: 100vh;
+  animation: expand 0.8s ease forwards;
+  background-color: white;
+  position: relative;
+  transition: all 0.8s ease;
+}
+// animation
+.herobanner {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
+  h1,
+  .profile {
+    transform: translateY(1000px);
+    font-family: "Noto Sans", sans-serif;
+    animation: slideUp 2s ease forwards 0.5s;
+  }
+}
+
+.profile {
+  img {
+    border-radius: 8px;
+  }
+}
+
+.menu {
+  animation: slidedDown 3s ease forwards;
+}
+
+.menu {
+  width: 100%;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  height: 62px;
+  z-index: 1;
+}
+
+.works {
+  transform: translateY(900px);
+  animation: slideUp 1.8s ease-in-out forwards 0.8s;
+  img {
+    border-radius: 8px;
+  }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // font-family: "Cinzel Decorative", cursive;
+  // font-family: "Marcellus SC", serif;
+  font-family: "Noto Sans", sans-serif;
+  // text-transform: uppercase;
+}
+
+.home span {
+  color: $base-color;
+}
+
+.about,
+.works {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
+}
+
+.footer {
+  padding-top: $space-content-top;
+  padding-bottom: $space-ending;
+  img {
+    max-width: 40px;
+    border-radius: 6px;
+    &:hover {
+      width: 38px;
+      border-radius: 8px;
+    }
+  }
+}
+
+.about {
+  color: white;
+  background-color: #262626;
+  .icon-img {
+    max-width: 80px;
+    margin: 0 auto;
+    padding: 24px 0;
+  }
+
+  .download-btn {
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 16px 20px;
+    text-align: center;
+    margin: 0 20px;
+    &:hover {
+      background-color: $base-color;
+    }
+  }
+
+  .download-icon {
+    width: 16px;
+  }
+}
+
+.space-bottom {
+  margin-bottom: 40px;
+}
