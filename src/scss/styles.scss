@@ -8,12 +8,12 @@ html {
 
 html {
   font-size: 100%; /*16px*/
-  // font-family: "Montserrat", sans-serif;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 112.5%; /*18px*/
+  // font-size: 112.5%; /*18px*/
 }
 
 body {
+  // font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   line-height: 1.75;
   font-weight: 400;
 }
@@ -28,22 +28,23 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  // font-size: 4.768rem; //76.29px
+  font-size: 3.052rem; //48.83px
 }
 h2 {
-  font-size: 2.441rem;
+  font-size: 2.441rem; //39.06px
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 1.953rem; //31.35px
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 1.563rem; //25px
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.25rem; //20px
 }
 
 p,
@@ -104,4 +105,28 @@ img {
 
 #myBtn:hover {
   background-color: $base-color;
+}
+
+.email-a {
+  color: $base-color;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: $base-color;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.space-sm-bottom {
+  margin-bottom: 32px;
+}
+
+.space-bottom {
+  padding-bottom: 52px;
 }

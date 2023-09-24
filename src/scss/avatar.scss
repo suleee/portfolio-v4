@@ -1,5 +1,38 @@
 @import "library";
 
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 200px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 500px) {
+  .herobanner {
+    max-height: 400px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 768px) {
+  .herobanner {
+    max-height: 550px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 900px) {
+  .herobanner {
+    max-height: 700px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 1200px) {
+  .herobanner {
+    max-height: 1200px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 1400px) {
+  .herobanner {
+    width: 80%;
+    margin: 0 auto;
+    max-height: 1500px; /* Adjust the height for larger screens */
+  }
+}
+
 .bg3 {
   padding-bottom: $space-ending;
 }
@@ -16,23 +49,31 @@ h6 {
 }
 
 .menu {
-  height: 58px;
+  height: 52px;
   // background-color: #5a719a8f;
   position: absolute;
   width: 100%;
   h1 {
-    color: black;
+    color: white;
     font-family: "Noto Sans", sans-serif;
     font-size: 24px;
+    text-shadow: 1px 1px 2px black;
   }
   .works {
     color: white;
+    text-shadow: 1px 1px 2px black;
+    &:hover {
+      color: $base-color;
+    }
   }
   .contact {
     background-color: black;
     padding: 10px;
     color: white;
     border-radius: 4px;
+    &:hover {
+      padding: 12px;
+    }
   }
 }
 
@@ -66,7 +107,10 @@ p {
 .display,
 .user,
 .next,
-.thanks {
+.thanks,
+.impact,
+.challenge,
+.research {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
@@ -77,10 +121,6 @@ p {
 
 .start {
   padding-bottom: $space-content-bottom;
-}
-
-.space-bottom {
-  padding-bottom: 52px;
 }
 
 .herobanner-bg {
@@ -120,38 +160,6 @@ p {
   // display: flex;
   justify-content: center;
   align-items: center;
-}
-@media (min-width: 350px) {
-  .herobanner {
-    max-height: 200px; /* Adjust the height for larger screens */
-  }
-}
-@media (min-width: 500px) {
-  .herobanner {
-    max-height: 400px; /* Adjust the height for larger screens */
-  }
-}
-@media (min-width: 768px) {
-  .herobanner {
-    max-height: 550px; /* Adjust the height for larger screens */
-  }
-}
-@media (min-width: 900px) {
-  .herobanner {
-    max-height: 700px; /* Adjust the height for larger screens */
-  }
-}
-@media (min-width: 1200px) {
-  .herobanner {
-    max-height: 1200px; /* Adjust the height for larger screens */
-  }
-}
-@media (min-width: 1400px) {
-  .herobanner {
-    width: 80%;
-    margin: 0 auto;
-    max-height: 1500px; /* Adjust the height for larger screens */
-  }
 }
 
 .top-line {
@@ -226,12 +234,14 @@ hr {
   a {
     color: white;
     font-weight: 200;
+    &:hover {
+      color: $base-color;
+    }
   }
   .email-address {
     margin-bottom: 36px;
   }
   .link-to-project {
-    text-decoration: underline;
     color: white;
     padding: 8px;
   }

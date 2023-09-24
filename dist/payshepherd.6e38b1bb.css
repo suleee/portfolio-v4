@@ -1,10 +1,14 @@
+h2 {
+  padding-bottom: 1.953rem;
+}
+
 .herobanner-bg {
   background-color: #f5f5f5;
 }
 
 .menu {
-  height: 45px;
-  margin-top: 15px;
+  height: 52px;
+  margin-top: 16px;
 }
 
 .menu h1 {
@@ -17,11 +21,19 @@
   color: #000;
 }
 
+.menu .works:hover {
+  color: #af6dd2;
+}
+
 .menu .contact {
   color: #fff;
   background-color: #000;
   border-radius: 4px;
   padding: 10px;
+}
+
+.menu .contact:hover {
+  padding: 12px;
 }
 
 .herobanner {
@@ -68,12 +80,12 @@
 
 hr {
   border-top: 1px solid #cecece;
-  margin-bottom: 24px;
+  margin-bottom: 1.563rem;
 }
 
-.intro, .challenge, .research, .problem, .solution, .ui, .solved, .ending {
-  padding-top: 80px;
-  padding-bottom: 80px;
+.intro, .challenge, .research, .problem, .solution, .ui, .solved, .ending, .architect {
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
 }
 
 .learning-text-con {
@@ -169,28 +181,20 @@ hr {
 }
 
 .space-top {
-  padding-top: 80px;
+  padding-top: 4.768rem;
 }
 
 .space {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
 }
 
 .solved .space-bottom {
-  padding-bottom: 80px;
-}
-
-.space-sm-bottom {
-  margin-bottom: 32px;
+  padding-bottom: 4.768rem;
 }
 
 span {
   font-weight: 500;
-}
-
-.footer, .next-page {
-  padding-bottom: 160px;
 }
 
 .intro h6, .solved h6 {
@@ -216,12 +220,19 @@ span {
 
 .icon-con .icon {
   text-align: center;
-  border-right: 1px solid #cecece;
   padding: 8px 6px;
 }
 
 .icon-con .icon img {
   max-width: 24px;
+}
+
+.icon-con .right-border {
+  border-right: 1px solid #cecece;
+}
+
+.footer {
+  padding-bottom: 160px;
 }
 
 .footer img {
@@ -234,13 +245,16 @@ span {
   font-weight: 200;
 }
 
+.footer a:hover {
+  color: #af6dd2;
+}
+
 .footer .email-address {
   margin-bottom: 36px;
 }
 
 .footer .link-to-project {
   padding: 8px;
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=payshepherd.6e38b1bb.css.map */

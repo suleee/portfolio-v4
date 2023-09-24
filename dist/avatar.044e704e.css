@@ -4,11 +4,11 @@ body, html {
 }
 
 html {
-  font-family: Noto Sans, sans-serif;
-  font-size: 112.5%;
+  font-size: 100%;
 }
 
 body {
+  font-family: Noto Sans, sans-serif;
   font-weight: 400;
   line-height: 1.75;
 }
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3.052rem;
 }
 
 h2 {
@@ -93,7 +93,31 @@ img {
 }
 
 #myBtn:hover {
-  background-color: #00f;
+  background-color: #af6dd2;
+}
+
+.email-a {
+  color: #af6dd2;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #af6dd2;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.space-sm-bottom {
+  margin-bottom: 32px;
+}
+
+.space-bottom {
+  padding-bottom: 52px;
 }
 
 /*# sourceMappingURL=avatar.044e704e.css.map */

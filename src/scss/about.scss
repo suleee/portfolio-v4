@@ -36,6 +36,9 @@
   }
 }
 
+.herobanner {
+  padding-top: $space-content-top;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -47,7 +50,7 @@
   background-color: $base-color;
 }
 
-.home {
+.about-page {
   height: 100vh;
   animation: expand 0.8s ease forwards;
   background-color: white;
@@ -55,80 +58,28 @@
   transition: all 0.8s ease;
 }
 
-// animation
-.herobanner {
-  padding-top: $space-content-top;
-  padding-bottom: $space-content-bottom;
-  h1,
-  .profile {
-    transform: translateY(1000px);
-    animation: slideUp 2s ease forwards 0.5s;
-  }
-}
-
-.profile {
-  img {
-    border-radius: 8px;
-    max-width: 400px;
-  }
-}
-
-.menu {
-  animation: slidedDown 3s ease forwards;
-  width: 100%;
-  position: sticky;
-  background-color: white;
-  top: 0;
-  height: 62px;
-  z-index: 1;
-}
-
-.works {
-  transform: translateY(900px);
-  animation: slideUp 1.8s ease-in-out forwards 0.8s;
-  img {
-    border-radius: 8px;
-  }
-}
-
-.home span {
-  color: $base-color;
-}
-
-.about,
-.works {
-  padding-top: $space-content-top;
-  padding-bottom: $space-content-bottom;
-}
-
-.about {
+.about-page .about {
   color: white;
-  background-color: #262626;
   .icon-img {
     max-width: 80px;
     margin: 0 auto;
     padding: 24px 0;
   }
   .download-btn {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border-radius: 4px;
     padding: 16px 20px;
     text-align: center;
     margin: 0 20px;
     &:hover {
       background-color: $base-color;
-      color: white;
     }
   }
 
   .download-icon {
     width: 16px;
   }
-}
-
-.space-bottom {
-  margin-bottom: 40px;
 }
 
 .footer {
@@ -142,4 +93,9 @@
       border-radius: 8px;
     }
   }
+}
+
+.about {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
 }

@@ -38,6 +38,10 @@
   }
 }
 
+.herobanner {
+  padding-top: 4.768rem;
+}
+
 .overlay {
   z-index: -10;
   background-color: #af6dd2;
@@ -46,7 +50,7 @@
   inset: 0;
 }
 
-.home {
+.about-page {
   background-color: #fff;
   height: 100vh;
   transition: all .8s;
@@ -54,80 +58,31 @@
   position: relative;
 }
 
-.herobanner {
-  padding-top: 4.768rem;
-  padding-bottom: 4.768rem;
-}
-
-.herobanner h1, .herobanner .profile {
-  animation: 2s .5s forwards slideUp;
-  transform: translateY(1000px);
-}
-
-.profile img {
-  border-radius: 8px;
-  max-width: 400px;
-}
-
-.menu {
-  z-index: 1;
-  background-color: #fff;
-  width: 100%;
-  height: 62px;
-  animation: 3s forwards slidedDown;
-  position: sticky;
-  top: 0;
-}
-
-.works {
-  animation: 1.8s ease-in-out .8s forwards slideUp;
-  transform: translateY(900px);
-}
-
-.works img {
-  border-radius: 8px;
-}
-
-.home span {
-  color: #af6dd2;
-}
-
-.about, .works {
-  padding-top: 4.768rem;
-  padding-bottom: 4.768rem;
-}
-
-.about {
+.about-page .about {
   color: #fff;
-  background-color: #262626;
 }
 
-.about .icon-img {
+.about-page .about .icon-img {
   max-width: 80px;
   margin: 0 auto;
   padding: 24px 0;
 }
 
-.about .download-btn {
-  color: #000;
+.about-page .about .download-btn {
+  color: #fff;
   text-align: center;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 4px;
   margin: 0 20px;
   padding: 16px 20px;
 }
 
-.about .download-btn:hover {
-  color: #fff;
+.about-page .about .download-btn:hover {
   background-color: #af6dd2;
 }
 
-.about .download-icon {
+.about-page .about .download-icon {
   width: 16px;
-}
-
-.space-bottom {
-  margin-bottom: 40px;
 }
 
 .footer {
@@ -145,4 +100,9 @@
   width: 38px;
 }
 
-/*# sourceMappingURL=index.da533f7e.css.map */
+.about {
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
+}
+
+/*# sourceMappingURL=about.c4c8f604.css.map */

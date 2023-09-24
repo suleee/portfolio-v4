@@ -1,103 +1,3 @@
-.bg3 {
-  padding-bottom: 160px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-  font-family: Marcellus SC, serif;
-}
-
-.menu {
-  width: 100%;
-  height: 58px;
-  position: absolute;
-}
-
-.menu h1 {
-  color: #000;
-  font-family: Noto Sans, sans-serif;
-  font-size: 24px;
-}
-
-.menu .works {
-  color: #fff;
-}
-
-.menu .contact {
-  color: #fff;
-  background-color: #000;
-  border-radius: 4px;
-  padding: 10px;
-}
-
-h1, h3, h4, h5, h6, p, ol {
-  color: #fff;
-}
-
-h1 {
-  margin-bottom: 32px;
-}
-
-h4 {
-  margin-bottom: 16px;
-}
-
-p {
-  margin: 0;
-}
-
-.phone, .idea, .ui, .userflow, .wireframe, .display, .user, .next, .thanks {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.intro {
-  padding-top: 160px;
-}
-
-.start {
-  padding-bottom: 80px;
-}
-
-.space-bottom {
-  padding-bottom: 52px;
-}
-
-.herobanner-bg {
-  background-image: linear-gradient(#4d6996, #1c1c2c 90%);
-}
-
-.bg1, .bg3 {
-  background-color: #1c1c2c;
-}
-
-.bg2 {
-  background-color: #14141f;
-}
-
-.herobannerxx {
-  background-image: url("avatar-herobanner.ca21dd45.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-width: 1400px;
-  height: 50%;
-  margin: auto 0;
-  position: relative;
-}
-
-.herobanner {
-  text-align: center;
-  background-image: url("avatar-herobanner.ca21dd45.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 800px;
-}
-
 @media (width >= 350px) {
   .herobanner {
     max-height: 200px;
@@ -136,6 +36,112 @@ p {
   }
 }
 
+.bg3 {
+  padding-bottom: 160px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: Marcellus SC, serif;
+}
+
+.menu {
+  width: 100%;
+  height: 52px;
+  position: absolute;
+}
+
+.menu h1 {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  font-family: Noto Sans, sans-serif;
+  font-size: 24px;
+}
+
+.menu .works {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.menu .works:hover {
+  color: #af6dd2;
+}
+
+.menu .contact {
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu .contact:hover {
+  padding: 12px;
+}
+
+h1, h3, h4, h5, h6, p, ol {
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 1.953rem;
+}
+
+h4 {
+  margin-bottom: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+.phone, .idea, .ui, .userflow, .wireframe, .display, .user, .next, .thanks, .impact, .challenge, .research {
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
+}
+
+.intro {
+  padding-top: 160px;
+}
+
+.start {
+  padding-bottom: 4.768rem;
+}
+
+.herobanner-bg {
+  background-image: linear-gradient(#4d6996, #1c1c2c 90%);
+}
+
+.bg1, .bg3 {
+  background-color: #1c1c2c;
+}
+
+.bg2 {
+  background-color: #14141f;
+}
+
+.herobannerxx {
+  background-image: url("avatar-herobanner.ca21dd45.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1400px;
+  height: 50%;
+  margin: auto 0;
+  position: relative;
+}
+
+.herobanner {
+  text-align: center;
+  background-image: url("avatar-herobanner.ca21dd45.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+}
+
 .top-line {
   background-image: url("avatar-line-top.5a4f9992.jpg");
 }
@@ -154,7 +160,7 @@ p {
 .ui-con {
   background-color: #1c1c2c;
   border-radius: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 1.953rem;
 }
 
 .ui-con-box {
@@ -163,8 +169,8 @@ p {
 
 hr {
   border-top: 3px solid #3e3e5a;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 4.768rem;
+  margin-bottom: 4.768rem;
 }
 
 .title-icon {
@@ -195,7 +201,7 @@ hr {
 .footer {
   background-color: #1c1c2c;
   border-top: 1px solid #363656;
-  padding-top: 80px;
+  padding-top: 4.768rem;
   padding-bottom: 160px;
 }
 
@@ -209,6 +215,10 @@ hr {
   font-weight: 200;
 }
 
+.footer a:hover {
+  color: #af6dd2;
+}
+
 .footer .email-address {
   margin-bottom: 36px;
 }
@@ -216,7 +226,6 @@ hr {
 .footer .link-to-project {
   color: #fff;
   padding: 8px;
-  text-decoration: underline;
 }
 
 /*# sourceMappingURL=avatar.655f8d88.css.map */

@@ -216,14 +216,24 @@ h4 {
 
 .end {
   background-image: url("../images/ml/ml-footer.png");
-  height: 530px;
+  min-height: 620px;
+  max-height: 620px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.UI {
+  .font-img {
+    width: 74%;
+  }
+}
+.git-icon {
+  width: 80%;
+}
+
 .menu {
-  height: 58px;
-  padding-top: 10px;
+  height: 52px;
+  padding-top: 16px;
   position: absolute;
   width: 100%;
   h1 {
@@ -233,12 +243,18 @@ h4 {
   }
   .works {
     color: white;
+    &:hover {
+      color: $base-color;
+    }
   }
   .contact {
     background-color: white;
     padding: 8px;
     color: black;
     border-radius: 4px;
+    &:hover {
+      padding: 12px;
+    }
   }
 }
 
@@ -254,12 +270,15 @@ h4 {
   a {
     color: white;
     font-weight: 200;
+    &:hover {
+      color: $base-color;
+    }
   }
   .email-address {
     margin-bottom: 36px;
   }
   .link-to-project {
-    text-decoration: underline;
+    // text-decoration: underline;
     color: white;
     padding: 8px;
   }
