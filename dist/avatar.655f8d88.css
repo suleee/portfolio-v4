@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu .works:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .menu .contact {
@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu .contact:hover {
-  padding: 12px;
+  color: #fff;
+  background-color: #c23b27;
 }
 
 h1, h3, h4, h5, h6, p, ol {
@@ -216,7 +217,7 @@ hr {
 }
 
 .footer a:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .footer .email-address {

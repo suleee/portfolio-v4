@@ -253,7 +253,8 @@ h4 {
     color: black;
     border-radius: 4px;
     &:hover {
-      padding: 12px;
+      background-color: $base-color;
+      color: white;
     }
   }
 }

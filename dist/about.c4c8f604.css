@@ -42,17 +42,25 @@
   padding-top: 4.768rem;
 }
 
+.profile img {
+  border-radius: 4px;
+  max-width: 300px;
+}
+
+.item-con img {
+  max-width: 150px;
+}
+
 .overlay {
   z-index: -10;
-  background-color: #af6dd2;
+  background-color: #c23b27;
   height: 100%;
   position: absolute;
   inset: 0;
 }
 
 .about-page {
-  background-color: #fff;
-  height: 100vh;
+  background-color: #f6f0ec;
   transition: all .8s;
   animation: .8s forwards expand;
   position: relative;
@@ -78,7 +86,7 @@
 }
 
 .about-page .about .download-btn:hover {
-  background-color: #af6dd2;
+  background-color: #c23b27;
 }
 
 .about-page .about .download-icon {
@@ -91,18 +99,22 @@
 }
 
 .footer img {
-  border-radius: 6px;
+  border-radius: 4px;
   max-width: 40px;
 }
 
 .footer img:hover {
-  border-radius: 8px;
+  border-radius: 6px;
   width: 38px;
 }
 
-.about {
+.about, .philosophy, .design, .career {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
+}
+
+hr {
+  color: #bdb6b3;
 }
 
 /*# sourceMappingURL=about.c4c8f604.css.map */

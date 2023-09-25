@@ -208,7 +208,7 @@ h4 {
 }
 
 .menu .works:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .menu .contact {
@@ -219,7 +219,8 @@ h4 {
 }
 
 .menu .contact:hover {
-  padding: 12px;
+  color: #fff;
+  background-color: #c23b27;
 }
 
 .footer {
@@ -240,7 +241,7 @@ h4 {
 }
 
 .footer a:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .footer .email-address {

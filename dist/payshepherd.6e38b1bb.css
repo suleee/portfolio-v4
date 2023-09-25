@@ -22,7 +22,7 @@ h2 {
 }
 
 .menu .works:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .menu .contact {
@@ -33,7 +33,8 @@ h2 {
 }
 
 .menu .contact:hover {
-  padding: 12px;
+  color: #fff;
+  background-color: #c23b27;
 }
 
 .herobanner {
@@ -246,7 +247,7 @@ span {
 }
 
 .footer a:hover {
-  color: #af6dd2;
+  color: #c23b27;
 }
 
 .footer .email-address {

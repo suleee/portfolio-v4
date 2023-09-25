@@ -39,6 +39,21 @@
 .herobanner {
   padding-top: $space-content-top;
 }
+
+.profile {
+  img {
+    border-radius: 4px;
+    max-width: 300px;
+  }
+}
+
+.item-con {
+  // padding-bottom: $s;
+  img {
+    max-width: 150px;
+  }
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -51,9 +66,9 @@
 }
 
 .about-page {
-  height: 100vh;
+  //   height: 100vh;
   animation: expand 0.8s ease forwards;
-  background-color: white;
+  background-color: $bg-color;
   position: relative;
   transition: all 0.8s ease;
 }
@@ -87,15 +102,22 @@
   padding-bottom: $space-ending;
   img {
     max-width: 40px;
-    border-radius: 6px;
+    border-radius: 4px;
     &:hover {
       width: 38px;
-      border-radius: 8px;
+      border-radius: 6px;
     }
   }
 }
 
-.about {
+.about,
+.philosophy,
+.design,
+.career {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
+}
+
+hr {
+  color: #bdb6b3;
 }
