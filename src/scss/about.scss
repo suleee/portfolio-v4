@@ -105,19 +105,34 @@
     border-radius: 4px;
     &:hover {
       width: 38px;
-      border-radius: 6px;
+      border-radius: 4px;
     }
   }
 }
 
 .about,
-.philosophy,
 .design,
-.career {
+.career,
+.design-principle,
+.books {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
 
 hr {
   color: #bdb6b3;
+}
+
+.design,
+.design-principle {
+  img {
+    max-width: 72px;
+    height: 72px;
+  }
+}
+
+.context {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 350px;
 }

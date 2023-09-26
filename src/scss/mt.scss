@@ -1,0 +1,261 @@
+@import "library";
+
+h2 {
+  padding-bottom: $space-title-bottom;
+}
+
+.menu {
+  height: 52px;
+  padding-top: 16px;
+  width: 100%;
+  background-color: #6856e7;
+  h1 {
+    color: white;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+  }
+  .works {
+    color: white;
+    &:hover {
+      color: $base-color;
+    }
+  }
+  .contact {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border-radius: 4px;
+    &:hover {
+      background-color: $base-color;
+      color: white;
+    }
+  }
+}
+
+.herobanner-bg {
+  background-color: #6856e7;
+}
+
+.herobanner {
+  background-image: url("../images/mt/mt-herobanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px; /* Adjust the initial height as needed */
+  text-align: center;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 250px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 768px) {
+  .herobanner {
+    max-height: 300px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 900px) {
+  .herobanner {
+    max-height: 450px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 1400px) {
+  .herobanner {
+    width: 70%;
+    margin: 0 auto;
+    max-height: 600px; /* Adjust the height for larger screens */
+  }
+}
+
+.bg1 {
+  background-color: #fcf9f2;
+}
+
+hr {
+  border-top: 1px solid $grey-stroke;
+  margin-bottom: $space-subtitle-bottom;
+  // padding-top: $space-content-bottom;
+}
+
+.intro,
+.challenge,
+.research,
+.problem,
+.solution,
+.ui,
+.solved,
+.ending,
+.architect {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
+}
+
+.learning-text-con {
+  background-color: #0f253a;
+  padding: 40px 0;
+}
+
+.learning-text {
+  color: white;
+  max-width: 700px;
+}
+
+.learning-img-con {
+  background: linear-gradient(
+    to top,
+    #f3f3f3,
+    #f3f3f3 50%,
+    #f3f3f3 61%,
+    #0f253a 61%
+  );
+}
+
+.problem2-panel {
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  filter: drop-shadow(0 2px 3px rgb(0, 0, 0, 0.25));
+  padding: $space-panel;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.problem .list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.wrong-icon {
+  height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  border: 1px solid rgb(237, 237, 237);
+  border-radius: 4px;
+  padding: 14px 0 16px 0;
+  width: 100px;
+  height: 64px;
+  img {
+    width: 100%;
+  }
+}
+
+.panel-bg {
+  border-radius: 10px;
+  background-color: white;
+  filter: drop-shadow(0 3px 4px rgb(0, 0, 0, 0.1));
+  padding: $space-panel;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.primary-btn {
+  background-color: #286cb2;
+  border-radius: 4px;
+  text-align: center;
+  height: 40px;
+  padding: 4px;
+  color: white;
+}
+
+.secondary-btn {
+  border: 1px solid $grey-stroke;
+  border-radius: 4px;
+  height: 40px;
+  padding: 4px;
+  text-align: center;
+}
+
+.third-btn {
+  background-color: #00a624;
+  border-radius: 4px;
+  text-align: center;
+  height: 40px;
+  padding: 4px;
+  color: white;
+}
+
+.link {
+  color: #286cb2;
+  font-weight: 600;
+}
+
+.icon-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.space-top {
+  padding-top: $space-content-top;
+}
+
+.space {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
+}
+
+.solved .space-bottom {
+  padding-bottom: $space-content-bottom;
+}
+
+span {
+  font-weight: 500;
+}
+
+.intro h6,
+.solved h6 {
+  padding-top: 32px;
+}
+.button hr {
+  margin-top: 24px;
+}
+.btn-row {
+  padding: 0 24px;
+}
+
+.icons h6 {
+  padding-bottom: 16px;
+}
+
+.icon-con {
+  border-radius: 4px;
+  border: 1px solid $grey-stroke;
+  .icon {
+    padding: 8px;
+    text-align: center;
+    img {
+      max-width: 18px;
+      // max-height: 16px;
+    }
+  }
+  .right-border {
+    border-right: 1px solid $grey-stroke;
+  }
+}
+
+.footer {
+  padding-bottom: $space-ending;
+  img {
+    max-width: 28px;
+    border-radius: 4px;
+  }
+  a {
+    font-weight: 200;
+    color: black;
+    &:hover {
+      color: $base-color;
+    }
+  }
+  .email-address {
+    margin-bottom: 36px;
+  }
+  .link-to-project {
+    padding: 8px;
+  }
+}
