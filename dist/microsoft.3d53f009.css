@@ -1,3 +1,35 @@
+.zoom-in-out-box {
+  background: #f50057;
+  margin: 24px;
+  animation: 1s infinite zoom-in-zoom-out;
+}
+
+.zoom-in-out-box2 {
+  font-size: 5rem;
+  animation: 1s infinite zoom-in-zoom-out;
+}
+
+.million-con {
+  color: #fff;
+  background-color: #6856e7;
+  border-radius: 10px;
+  padding-top: 3%;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 h2 {
   padding-bottom: 1.953rem;
 }
@@ -8,6 +40,11 @@ h2 {
 
 h5 {
   color: #6856e7;
+}
+
+.thead-color th {
+  color: #fff;
+  background-color: #6856e7;
 }
 
 .menu {
@@ -79,14 +116,14 @@ h5 {
 
 @media (width >= 1400px) {
   .herobanner {
-    width: 70%;
+    width: 60%;
     max-height: 600px;
     margin: 0 auto;
   }
 }
 
 .bg1 {
-  background-color: #fcf9f2;
+  background-color: #eceaf7;
 }
 
 hr {
@@ -94,14 +131,22 @@ hr {
   margin-bottom: 1.563rem;
 }
 
-.intro, .challenge, .research, .research-index, .testing, .goal, .problem, .solution, .pain-point, .solved, .ending {
+.intro, .challenge, .research, .research-index, .testing, .goal, .problem, .solution, .pain-point, .swot, .solved, .ending {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
 
+.ending {
+  color: #fff;
+}
+
+.learning {
+  background-color: #6856e7;
+  margin-bottom: 4.768rem;
+}
+
 .learning-text-con {
-  background-color: #0f253a;
-  padding: 40px 0;
+  padding: 72px 0;
 }
 
 .learning-text {
@@ -208,7 +253,7 @@ span {
   font-weight: 500;
 }
 
-.intro h6, .solved h6 {
+.intro h6 {
   padding-top: 32px;
 }
 
@@ -246,11 +291,6 @@ span {
   padding-bottom: 160px;
 }
 
-.footer img {
-  border-radius: 4px;
-  max-width: 28px;
-}
-
 .footer a {
   color: #000;
   font-weight: 200;
@@ -268,14 +308,7 @@ span {
   padding: 8px;
 }
 
-.million-con {
-  color: #fff;
-  background-color: #6856e7;
-  border-radius: 10px;
-  padding-top: 3%;
-}
-
-.source-link {
+.source-link, .swot a {
   color: #6856e7;
   font-weight: 200;
   text-decoration: underline;

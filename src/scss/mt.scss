@@ -1,5 +1,37 @@
 @import "library";
 
+$mt-color: #6856e7;
+
+.zoom-in-out-box {
+  margin: 24px;
+  background: #f50057;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.zoom-in-out-box2 {
+  font-size: 5rem;
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+.million-con {
+  background-color: $mt-color;
+  border-radius: 10px;
+  color: white;
+  padding-top: 3%;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
 h2 {
   padding-bottom: $space-title-bottom;
 }
@@ -9,14 +41,19 @@ h2 {
 }
 
 h5 {
-  color: #6856e7;
+  color: $mt-color;
+}
+
+.thead-color th {
+  background-color: $mt-color;
+  color: white;
 }
 
 .menu {
   height: 52px;
   padding-top: 16px;
   width: 100%;
-  background-color: #6856e7;
+  background-color: $mt-color;
   h1 {
     color: white;
     font-family: "Noto Sans", sans-serif;
@@ -41,7 +78,7 @@ h5 {
 }
 
 .herobanner-bg {
-  background-color: #6856e7;
+  background-color: $mt-color;
 }
 
 .herobanner {
@@ -73,14 +110,14 @@ h5 {
 }
 @media (min-width: 1400px) {
   .herobanner {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     max-height: 600px; /* Adjust the height for larger screens */
   }
 }
 
 .bg1 {
-  background-color: #fcf9f2;
+  background-color: #eceaf7;
 }
 
 hr {
@@ -97,15 +134,27 @@ hr {
 .problem,
 .solution,
 .pain-point,
+.swot,
 .solved,
 .ending {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
 
+.ending {
+  color: white;
+}
+
+.learning {
+  margin-bottom: $space-content-bottom;
+}
+
+.learning {
+  background-color: $mt-color;
+}
+
 .learning-text-con {
-  background-color: #0f253a;
-  padding: 40px 0;
+  padding: 72px 0;
 }
 
 .learning-text {
@@ -216,8 +265,7 @@ span {
   font-weight: 500;
 }
 
-.intro h6,
-.solved h6 {
+.intro h6 {
   padding-top: 32px;
 }
 .button hr {
@@ -249,10 +297,7 @@ span {
 
 .footer {
   padding-bottom: $space-ending;
-  img {
-    max-width: 28px;
-    border-radius: 4px;
-  }
+
   a {
     font-weight: 200;
     color: black;
@@ -268,16 +313,9 @@ span {
   }
 }
 
-.million-con {
-  background-color: #6856e7;
-  border-radius: 10px;
-  color: white;
-  //   margin: 0 20px;
-  padding-top: 3%;
-}
-
-.source-link {
-  color: #6856e7;
+.source-link,
+.swot a {
+  color: $mt-color;
   font-weight: 200;
   text-decoration: underline;
 }

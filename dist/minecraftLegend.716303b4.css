@@ -104,7 +104,7 @@ hr {
 }
 
 .checkmark {
-  background: url("ml-check-icon.44d32a38.jpg") 0 0 no-repeat;
+  background: url("icon-check.d5800b73.jpg") 0 0 no-repeat;
   padding-bottom: 24px;
   padding-left: 44px;
 }
@@ -184,7 +184,7 @@ h4 {
   width: 74%;
 }
 
-.git-icon {
+.icon-git {
   width: 80%;
 }
 
