@@ -1,0 +1,123 @@
+@import "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Marcellus+SC&family=Montserrat:wght@200;400;500;700;800&family=Noto+Sans:wght@100;200;500;700&family=Playfair+Display:wght@400;700&family=VT323&display=swap";
+body, html {
+  height: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: Noto Sans, sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+p, li, ul, ol {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.sm-text {
+  font-size: .8rem;
+}
+
+.header h1 {
+  font-weight: bold;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+.footer h1 {
+  font-family: Playfair Display, serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+#myBtn {
+  z-index: 99;
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+}
+
+#myBtn:hover {
+  background-color: #c23b27;
+}
+
+.email-a {
+  color: #c23b27;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #c23b27;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+.space-sm-bottom {
+  margin-bottom: 32px;
+}
+
+.space-bottom {
+  padding-bottom: 52px;
+}
+
+/*# sourceMappingURL=about.044e704e.css.map */

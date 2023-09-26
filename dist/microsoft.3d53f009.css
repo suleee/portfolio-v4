@@ -2,6 +2,14 @@ h2 {
   padding-bottom: 1.953rem;
 }
 
+.resaerch-index h5 {
+  color: #000 !important;
+}
+
+h5 {
+  color: #6856e7;
+}
+
 .menu {
   background-color: #6856e7;
   width: 100%;
@@ -86,7 +94,7 @@ hr {
   margin-bottom: 1.563rem;
 }
 
-.intro, .challenge, .research, .problem, .solution, .ui, .solved, .ending, .architect {
+.intro, .challenge, .research, .research-index, .testing, .goal, .problem, .solution, .pain-point, .solved, .ending {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
@@ -258,6 +266,19 @@ span {
 
 .footer .link-to-project {
   padding: 8px;
+}
+
+.million-con {
+  color: #fff;
+  background-color: #6856e7;
+  border-radius: 10px;
+  padding-top: 3%;
+}
+
+.source-link {
+  color: #6856e7;
+  font-weight: 200;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=microsoft.3d53f009.css.map */

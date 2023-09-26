@@ -30,8 +30,6 @@
 
 @media (width >= 1400px) {
   .herobanner {
-    width: 80%;
-    max-height: 1500px;
     margin: 0 auto;
   }
 }

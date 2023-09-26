@@ -53,6 +53,7 @@ li {
   justify-content: center;
   align-items: center;
 }
+
 @media (min-width: 350px) {
   .herobanner {
     max-height: 300px; /* Adjust the height for larger screens */
@@ -80,9 +81,9 @@ li {
 }
 @media (min-width: 1400px) {
   .herobanner {
-    width: 80%;
+    // width: 80%;
     margin: 0 auto;
-    max-height: 1500px; /* Adjust the height for larger screens */
+    // max-height: 1500px; /* Adjust the height for larger screens */
   }
 }
 
