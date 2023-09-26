@@ -1,5 +1,7 @@
 @import "library";
 
+$payshepherd-color: #286cb2;
+
 .herobanner-bg {
   background-color: #f5f5f5;
 }
@@ -154,7 +156,7 @@ hr {
 }
 
 .primary-btn {
-  background-color: #286cb2;
+  background-color: $payshepherd-color;
   border-radius: 4px;
   text-align: center;
   height: 40px;
@@ -180,8 +182,11 @@ hr {
 }
 
 .link {
-  color: #286cb2;
+  color: $payshepherd-color;
   font-weight: 600;
+}
+.figma-link {
+  color: $payshepherd-color;
 }
 
 .icon-title {

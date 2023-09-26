@@ -176,6 +176,10 @@ hr {
   font-weight: 600;
 }
 
+.figma-link {
+  color: #286cb2;
+}
+
 .icon-title {
   font-size: .8rem;
   font-weight: 600;
