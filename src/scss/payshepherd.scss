@@ -1,37 +1,7 @@
 @import "library";
 
-h2 {
-  padding-bottom: $space-title-bottom;
-}
-
 .herobanner-bg {
   background-color: #f5f5f5;
-}
-
-.menu {
-  height: 52px;
-  margin-top: 16px;
-  h1 {
-    color: black;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 24px;
-  }
-  .works {
-    color: black;
-    &:hover {
-      color: $base-color;
-    }
-  }
-  .contact {
-    background-color: black;
-    padding: 10px;
-    color: white;
-    border-radius: 4px;
-    &:hover {
-      background-color: $base-color;
-      color: white;
-    }
-  }
 }
 
 .herobanner {
@@ -67,6 +37,36 @@ h2 {
     width: 70%;
     margin: 0 auto;
     max-height: 600px; /* Adjust the height for larger screens */
+  }
+}
+
+h2 {
+  padding-bottom: $space-title-bottom;
+}
+
+.menu {
+  height: 52px;
+  margin-top: 16px;
+  h1 {
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+  }
+  .works {
+    color: black;
+    &:hover {
+      color: $base-color;
+    }
+  }
+  .contact {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    &:hover {
+      background-color: $base-color;
+      color: white;
+    }
   }
 }
 
