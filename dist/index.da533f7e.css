@@ -73,6 +73,13 @@
   max-width: 350px;
 }
 
+@media (width <= 768px) {
+  .profile img {
+    padding-top: 100px;
+    padding-bottom: 4.768rem;
+  }
+}
+
 .menu {
   z-index: 1;
   background-color: #f6f0ec;

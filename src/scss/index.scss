@@ -68,10 +68,18 @@
   .profile {
     transform: translateY(1000px);
     animation: slideUp 2s ease forwards 0.5s;
+    // padding-top: $space-content-top;
     img {
       border-radius: 8px;
       max-width: 350px;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .profile img {
+    padding-top: 100px;
+    padding-bottom: $space-content-bottom;
   }
 }
 
