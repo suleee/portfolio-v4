@@ -22,6 +22,12 @@ h4, h5, h6, p, ol, ul, li {
   height: 800px;
 }
 
+@media (width >= 0) {
+  .herobanner {
+    max-height: 280px;
+  }
+}
+
 @media (width >= 350px) {
   .herobanner {
     max-height: 300px;

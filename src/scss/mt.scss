@@ -14,9 +14,14 @@ $mt-color: #6856e7;
   align-items: center;
 }
 
+@media (min-width: 0px) {
+  .herobanner {
+    max-height: 180px; /* Adjust the height for larger screens */
+  }
+}
 @media (min-width: 350px) {
   .herobanner {
-    max-height: 250px; /* Adjust the height for larger screens */
+    max-height: 300px; /* Adjust the height for larger screens */
   }
 }
 @media (min-width: 768px) {
@@ -26,6 +31,7 @@ $mt-color: #6856e7;
 }
 @media (min-width: 900px) {
   .herobanner {
+    margin: 0 auto;
     width: 70%;
     max-height: 450px; /* Adjust the height for larger screens */
   }

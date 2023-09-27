@@ -1,6 +1,12 @@
+@media (width >= 0) {
+  .herobanner {
+    max-height: 250px;
+  }
+}
+
 @media (width >= 350px) {
   .herobanner {
-    max-height: 200px;
+    max-height: 300px;
   }
 }
 
