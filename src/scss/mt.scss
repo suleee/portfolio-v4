@@ -19,6 +19,11 @@ $mt-color: #6856e7;
     max-height: 180px; /* Adjust the height for larger screens */
   }
 }
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 300px; /* Adjust the height for larger screens */
+  }
+}
 @media (min-width: 768px) {
   .herobanner {
     max-height: 300px; /* Adjust the height for larger screens */

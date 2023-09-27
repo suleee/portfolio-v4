@@ -4,6 +4,15 @@
   .herobanner {
     max-height: 250px; /* Adjust the height for larger screens */
   }
+  // .intro{
+  //   padding-top: $space-content-top;
+  //   padding-bottom: $space-content-bottom;
+  // }
+}
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 300px; /* Adjust the height for larger screens */
+  }
 }
 @media (min-width: 500px) {
   .herobanner {

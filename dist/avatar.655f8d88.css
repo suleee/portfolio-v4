@@ -4,6 +4,12 @@
   }
 }
 
+@media (width >= 350px) {
+  .herobanner {
+    max-height: 300px;
+  }
+}
+
 @media (width >= 500px) {
   .herobanner {
     max-height: 400px;

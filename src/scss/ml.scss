@@ -59,6 +59,11 @@ li {
     max-height: 280px; /* Adjust the height for larger screens */
   }
 }
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 300px; /* Adjust the height for larger screens */
+  }
+}
 @media (min-width: 500px) {
   .herobanner {
     max-height: 400px; /* Adjust the height for larger screens */
