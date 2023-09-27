@@ -10,9 +10,9 @@
   height: 500px;
 }
 
-@media (width >= 350px) {
+@media (width >= 0) {
   .herobanner {
-    max-height: 250px;
+    max-height: 180px;
   }
 }
 

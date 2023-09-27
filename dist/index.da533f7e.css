@@ -76,7 +76,6 @@
 @media (width <= 768px) {
   .profile img {
     padding-top: 100px;
-    padding-bottom: 4.768rem;
   }
 }
 
@@ -88,6 +87,12 @@
   animation: 3s forwards slidedDown;
   position: sticky;
   top: 0;
+}
+
+@media (width <= 768px) {
+  .menu {
+    height: 120px;
+  }
 }
 
 .works {

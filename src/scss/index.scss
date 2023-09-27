@@ -79,7 +79,7 @@
 @media (max-width: 768px) {
   .profile img {
     padding-top: 100px;
-    padding-bottom: $space-content-bottom;
+    // padding-bottom: $space-content-bottom;
   }
 }
 
@@ -91,6 +91,12 @@
   top: 0;
   height: 62px;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    height: 120px;
+  }
 }
 
 .works {

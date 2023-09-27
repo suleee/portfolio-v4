@@ -14,9 +14,9 @@ $mt-color: #6856e7;
   align-items: center;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 0px) {
   .herobanner {
-    max-height: 250px; /* Adjust the height for larger screens */
+    max-height: 180px; /* Adjust the height for larger screens */
   }
 }
 @media (min-width: 768px) {

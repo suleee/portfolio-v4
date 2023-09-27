@@ -66,11 +66,29 @@
 }
 
 .about-page {
-  //   height: 100vh;
   animation: expand 0.8s ease forwards;
   background-color: $bg-color;
   position: relative;
   transition: all 0.8s ease;
+}
+
+// .about-page {
+//     background-color: $bg-color;
+//     position: relative;
+//   }
+
+.menu {
+  width: 100%;
+  position: sticky;
+  background-color: $bg-color;
+  top: 0;
+  height: 62px;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .menu {
+    height: 120px;
+  }
 }
 
 .about-page .about {
@@ -80,6 +98,7 @@
     margin: 0 auto;
     padding: 24px 0;
   }
+
   .download-btn {
     background-color: black;
     color: white;

@@ -1,6 +1,6 @@
-@media (width >= 350px) {
+@media (width >= 0) {
   .herobanner {
-    max-height: 200px;
+    max-height: 250px;
   }
 }
 
