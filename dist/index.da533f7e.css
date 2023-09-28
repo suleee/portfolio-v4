@@ -112,7 +112,7 @@
   color: #c23b27;
 }
 
-.about, .works {
+.about {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
@@ -142,6 +142,10 @@
 
 .space-bottom {
   margin-bottom: 40px;
+}
+
+.works {
+  padding-top: 4.768rem;
 }
 
 .item {

@@ -117,8 +117,7 @@
   color: $base-color;
 }
 
-.about,
-.works {
+.about {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
@@ -152,6 +151,9 @@
   margin-bottom: 40px;
 }
 
+.works {
+  padding-top: $space-content-top;
+}
 .item {
   padding: 0 40px 72px 40px;
 }
