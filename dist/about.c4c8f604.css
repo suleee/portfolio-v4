@@ -79,6 +79,10 @@
   .menu {
     height: 120px;
   }
+
+  .space-bottom2 {
+    padding-bottom: 52px;
+  }
 }
 
 .about-page .about {
@@ -138,9 +142,8 @@ hr {
 }
 
 .context {
-  max-width: 350px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 32px;
 }
 
 /*# sourceMappingURL=about.c4c8f604.css.map */
