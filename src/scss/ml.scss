@@ -13,17 +13,6 @@ li {
   color: white;
 }
 
-h4,
-h5,
-h6,
-p,
-ol,
-ul,
-li {
-  font-family: "Noto Sans", sans-serif;
-  //   font-family: "Montserrat", sans-serif;
-}
-
 .herobanner-bg {
   background-image: linear-gradient(
     #0b0b17,
@@ -52,6 +41,15 @@ li {
   // display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ending {
+  background-image: url("../images/ml/ml-footer.png");
+  min-height: 500px;
+  max-height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 0px) {
@@ -156,7 +154,8 @@ hr {
 .engagement,
 .extra,
 .UI,
-.testing {
+.testing,
+.qa {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
@@ -221,14 +220,6 @@ h4 {
   }
 }
 
-.end {
-  background-image: url("../images/ml/ml-footer.png");
-  min-height: 620px;
-  max-height: 620px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .UI {
   .font-img {
     width: 74%;
@@ -277,7 +268,6 @@ h4 {
   }
   a {
     color: white;
-    font-weight: 200;
     &:hover {
       color: $base-color;
     }

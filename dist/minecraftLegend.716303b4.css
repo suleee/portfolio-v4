@@ -2,10 +2,6 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li {
   color: #fff;
 }
 
-h4, h5, h6, p, ol, ul, li {
-  font-family: Noto Sans, sans-serif;
-}
-
 .herobanner-bg {
   background-image: linear-gradient(#0b0b17, #090f22 65%, #281c26 98%, #0c0d14 10%);
 }
@@ -20,6 +16,15 @@ h4, h5, h6, p, ol, ul, li {
   align-items: center;
   width: 100%;
   height: 800px;
+}
+
+.ending {
+  background-image: url("ml-footer.c4eac0ee.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  max-height: 620px;
 }
 
 @media (width >= 0) {
@@ -115,7 +120,7 @@ hr {
   padding-left: 44px;
 }
 
-.intro, .problem-solution, .challenges, .userflow, .wireframe, .userflow2, .breakdown, .solved, .bedrock, .engagement, .extra, .UI, .testing {
+.intro, .problem-solution, .challenges, .userflow, .wireframe, .userflow2, .breakdown, .solved, .bedrock, .engagement, .extra, .UI, .testing, .qa {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
@@ -178,14 +183,6 @@ h4 {
   padding-bottom: 0;
 }
 
-.end {
-  background-image: url("ml-footer.c4eac0ee.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 620px;
-  max-height: 620px;
-}
-
 .UI .font-img {
   width: 74%;
 }
@@ -241,7 +238,6 @@ h4 {
 
 .footer a {
   color: #fff;
-  font-weight: 200;
 }
 
 .footer a:hover {

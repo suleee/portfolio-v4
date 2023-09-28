@@ -32,7 +32,6 @@ $mt-color: #6856e7;
 @media (min-width: 900px) {
   .herobanner {
     margin: 0 auto;
-    width: 70%;
     max-height: 450px; /* Adjust the height for larger screens */
   }
 }
@@ -226,12 +225,12 @@ span {
   padding-top: 32px;
 }
 
-.btn-row {
-  padding: 0 24px;
-}
-
 .icons h6 {
   padding-bottom: 16px;
+}
+
+.btn-row {
+  padding: 0 24px;
 }
 
 .icon-con {
@@ -254,7 +253,6 @@ span {
   padding-bottom: $space-ending;
 
   a {
-    font-weight: 200;
     color: black;
     &:hover {
       color: $base-color;
@@ -271,7 +269,7 @@ span {
 .source-link,
 .swot a {
   color: $mt-color;
-  font-weight: 200;
+  // font-weight: 200;
   text-decoration: underline;
 }
 
