@@ -108,6 +108,10 @@ a:hover {
   font-weight: 400;
 }
 
+.space-xs-bottom {
+  margin-bottom: 8px;
+}
+
 .space-sm-bottom {
   margin-bottom: 32px;
 }
