@@ -108,8 +108,8 @@
   background-color: #c23b27;
 }
 
-.about-page .about .download-icon {
-  width: 16px;
+.download-icon {
+  max-width: 28px;
 }
 
 .footer {

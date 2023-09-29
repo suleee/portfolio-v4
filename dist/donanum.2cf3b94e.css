@@ -1,0 +1,169 @@
+.herobanner-bg {
+  background-color: #f5f5f5;
+}
+
+.herobanner {
+  text-align: center;
+  background-image: url("donanum-herobanner.3f3f825a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+}
+
+@media (width >= 0) {
+  .herobanner {
+    max-height: 280px;
+  }
+}
+
+@media (width >= 350px) {
+  .herobanner {
+    max-height: 350px;
+  }
+}
+
+@media (width >= 768px) {
+  .herobanner {
+    max-height: 300px;
+  }
+}
+
+@media (width >= 900px) {
+  .herobanner {
+    max-height: 450px;
+  }
+}
+
+@media (width >= 1400px) {
+  .herobanner {
+    max-height: 600px;
+  }
+}
+
+.intro, .goal, .problem, .timeline, .keyword, .persona, .flow, .wireframe, .final {
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
+}
+
+.persona, .goal {
+  background-color: #eef1f5;
+}
+
+.problem .img-con {
+  justify-content: center;
+  display: flex;
+}
+
+.problem img {
+  max-width: 80px;
+}
+
+h2 {
+  padding-bottom: 1.953rem;
+}
+
+.menu {
+  width: 100%;
+  padding-top: 16px;
+  position: absolute;
+}
+
+.menu h1 {
+  font-family: Noto Sans, sans-serif;
+  font-size: 24px;
+}
+
+.menu .works:hover {
+  color: #c23b27;
+}
+
+.menu .contact {
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu .contact:hover {
+  background-color: #c23b27;
+}
+
+hr {
+  border-top: 1px solid #cecece;
+  margin-bottom: 1.563rem;
+}
+
+.icon-title {
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.space-top {
+  padding-top: 4.768rem;
+}
+
+.space {
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
+}
+
+span {
+  font-weight: 500;
+}
+
+.intro h6, .solved h6 {
+  padding-top: 32px;
+}
+
+.icons h6 {
+  padding-bottom: 16px;
+}
+
+.icon-con {
+  border: 1px solid #cecece;
+  border-radius: 4px;
+}
+
+.icon-con .icon {
+  text-align: center;
+  padding: 8px;
+}
+
+.icon-con .icon img {
+  max-width: 18px;
+}
+
+.icon-con .right-border {
+  border-right: 1px solid #cecece;
+}
+
+.footer {
+  padding-bottom: 160px;
+}
+
+.footer img {
+  border-radius: 4px;
+  max-width: 28px;
+}
+
+.footer a {
+  color: #000;
+}
+
+.footer a:hover {
+  color: #c23b27;
+}
+
+.footer .email-address {
+  margin-bottom: 36px;
+}
+
+.footer .link-to-project {
+  padding: 8px;
+}
+
+/*# sourceMappingURL=donanum.2cf3b94e.css.map */
