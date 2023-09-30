@@ -42,7 +42,7 @@
 
 @media (width >= 1400px) {
   .herobanner {
-    max-height: 600px;
+    max-height: 700px;
   }
 }
 
@@ -171,6 +171,11 @@ span {
   border-radius: 10px;
   margin: 16px 0;
   padding: 32px;
+}
+
+.link {
+  color: #c23b27;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=wiki.6d2b80e8.css.map */

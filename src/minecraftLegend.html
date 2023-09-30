@@ -90,17 +90,17 @@
                 <h2>Renew Lost Legend MarketPlace</h2>
                 <p>
                   Lost Legend Marketplace is where users can download mini-games
-                  in Minecraft Legends. When users clear a stage, they will
+                  in Minecraft Legends. When users complete a stage, they
                   receive valuable rewards. The old Lost Legend marketplace had
-                  limitations in showcasing multiple items. With our monthly
+                  limitations in showcasing multiple items. Given our monthly
                   game releases, I was tasked with designing a new layout that
                   allows users to enjoy any Lost Legend game at their
-                  convenience. I aimed to provide a solution for how multiple
-                  items are displayed on the screen and ensure that Lost Legend
-                  stands out among the three menu tabs. I also deeply considered
-                  how to make players enjoy the game without going through
-                  multiple steps and potentially giving up before they can start
-                  playing.
+                  convenience. My goal was to provide a solution for displaying
+                  multiple items on the screen and ensuring that Lost Legend
+                  stands out among the three menu tabs. Additionally, I gave
+                  careful thought to how to enhance the player's enjoyment of
+                  the game without requiring them to navigate through multiple
+                  steps.
                 </p>
                 <!-- <p>
                   In this project, I worked closely with the UX team, the UI
@@ -157,18 +157,14 @@
                   <h2>Problems</h2>
                   <ul>
                     <li>
-                      It's crucial for Lost Legend screen tab to truly stand out
-                      among the other tabs in the game.
+                      There are three tabs on one page, and Lost Legend is one
+                      of them. If we use the same layout as the other tabs, Lost
+                      Legend will not stand out.
                     </li>
+                    <li>Currently, only one game is displayed.</li>
+                    <li>There is no function to view multiple games.</li>
                     <li>
-                      In the previous design, only one game was displayed.
-                    </li>
-                    <li>
-                      Considering our monthly game releases, it's imperative
-                      that users have easy access to the complete game list.
-                    </li>
-                    <li>
-                      There are too many steps before a player can start playing
+                      There are too many steps before players can start playing
                       the game.
                     </li>
                   </ul>
@@ -179,19 +175,31 @@
                   <h2>Solutions</h2>
                   <ul>
                     <li>
-                      Create a new layout of Lost Legend and make sure the
-                      layout stands out from the three tabs.
+                      Create a new layout for Lost Legend and ensure that this
+                      layout stands out among the three tabs.
                     </li>
                     <li>
-                      Distinguish between downloaded games and non-downloaded
-                      ones.
+                      Utilize a scrollview to display a list of games, allowing
+                      users to easily view all available Lost Legend games.
                     </li>
                     <li>
-                      Consider using a month on title area to consistently
-                      inform players about the release of a new 'Lost Legend'
-                      every month.
+                      Provide notifications for recently released games.
+                      <ul>
+                        <li>
+                          Employ sub-headers to differentiate between past Lost
+                          Legend games and those released this month.
+                        </li>
+                        <li>
+                          Organize the list by month to enhance user navigation.
+                        </li>
+                      </ul>
                     </li>
-                    <li>Consider about user flow</li>
+                    <li>
+                      Clearly distinguish between downloaded games and those
+                      that haven't been downloaded yet. (on the thumbnail and
+                      content area)
+                    </li>
+                    <li>Lastly, provide insights into user flow.</li>
                   </ul>
                 </div>
               </div>
@@ -225,29 +233,28 @@
                   <li class="space-sm-bottom">
                     <h4>Onboard</h4>
                     <p>
-                      This was my first task after I joined the company. I had
-                      to play Minecraft Legends to understand its theme.
-                      Additionally, I downloaded and played
-                      <abbr title="Real-time strategy">RTS</abbr> genre games.
+                      This was my first task after joining the company. I had to
+                      play Minecraft Legends to understand its theme.
+                      Additionally, I downloaded and played RTS genre games.
                     </p>
                   </li>
                   <li class="space-sm-bottom">
-                    <h4>Understanding the Guidelines and Components</h4>
+                    <h4>Understanding the guidelines and components</h4>
                     <p>
                       The game was built using multiple components, and I had to
-                      brainstorm ideas and keep in mind how to use these
-                      components. The available space was limited, so it wasn't
-                      easy to fit all the content while following the guidelines
-                      (Mojang uses a 4pt grid system).
+                      brainstorm ideas while keeping in mind how to utilize
+                      these components. Given the limited space available, it
+                      wasn't easy to fit all the content while adhering to the
+                      guidelines (Mojang uses a 4pt grid system).
                     </p>
                   </li>
                   <li class="space-sm-bottom">
-                    <h4>Putting the Prototype into Bedrock</h4>
+                    <h4>Implement the prototype into the Bedrock.</h4>
                     <p>
-                      I have experiences with React, fortunately BedRock engine
-                      works similarly. I had to learn and adapt to the coding
-                      style and assisted engineers to integrate the prototype
-                      into game using Bedrock engine.
+                      I have experience with React, and fortunately, the BedRock
+                      engine works similarly. I had to learn and adapt to the
+                      coding style and assist engineers in integrating the
+                      prototype into the game using the BedRock engine.
                     </p>
                   </li>
                 </ol>
@@ -270,11 +277,11 @@
               </div>
               <div class="col-md-4">
                 <p class="space">
-                  First my research centered around the competition space in
-                  order to understand how other games are addressing marketplace
-                  layouts. I downloaded Minecraft related games,
-                  <abbr title="Real-time strategy">RTS</abbr> games, used search
-                  and Game UI Database to find out different type of layouts.
+                  First, my research focused on the competition space to
+                  understand how other games are addressing marketplace layouts.
+                  I downloaded Minecraft-related games, RTS games, and used
+                  searches and the Game UI Database to explore different types
+                  of layouts.
                 </p>
               </div>
             </div>
@@ -300,9 +307,9 @@
               <div class="offset-md-2 col-8">
                 <h2>Personal Insight of User Flow</h2>
                 <p>
-                  While I was working on this task, there were some parts that
-                  made me wonder and kept me thinking about how we can make it
-                  better for users when they use the product.
+                  While I was working on this task, some parts made me wonder
+                  and kept me thinking about how we can enhance the user
+                  experience when they use the product
                 </p>
               </div>
             </div>
@@ -312,24 +319,19 @@
                 <div class="row thought-sm-con">
                   <div class="">
                     <h5>
-                      The users need to follow several steps to play Lost
-                      Legend:
+                      Users need to follow several steps to play Lost Legend:
                     </h5>
                     <ol>
+                      <li>Enter the Marketplace. Select Lost Legend Tab.</li>
                       <li>
-                        First, they have to select the Lost Legend they want to
-                        play.
+                        Navigate to the Lost Legend list screen. Click on the
+                        desired game.
                       </li>
-                      <li>
-                        The next step is to download the game by clicking the
-                        button three times.
-                      </li>
-                      <li>
-                        Then they will be taken to the Lost Legend list screen.
-                      </li>
-                      <li>They should click on the game they want to play.</li>
+                      <li>Download the DLC by clicking three times.</li>
+                      <li>Open Lost Legend Page.</li>
+                      <li>Choose Lost Legend users want to play</li>
                       <li>Proceed to the lobby.</li>
-                      <li>Finally, start playing the game.</li>
+                      <li>Begin playing the game.</li>
                     </ol>
                   </div>
                 </div>
@@ -340,14 +342,12 @@
               <div class="offset-md-2 col-md-8">
                 <h4>3 - Click Rules</h4>
                 <p>
-                  In UX, there's a guideline known as the '3-click rule,' which
-                  isn't strictly necessary, but the idea behind it is to reduce
-                  user frustration and prevent them from giving up on a task
-                  before achieving their goals. Many articles argue that the
-                  3-click rule is arbitrary, but in my opinion we should still
-                  consider that each additional click can have significance.
-                  When I approach a user flow like this, it always makes me
-                  wonder if there's a better way to shorten the path.
+                  In UX, there's a guideline known as the '3-click rule,' which,
+                  while not strictly necessary, aims to reduce user frustration
+                  and prevent them from giving up on a task before achieving
+                  their goals. Many articles argue that the 3-click rule is
+                  arbitrary, but in my opinion, we should still consider that
+                  each additional click can have significance.
                 </p>
               </div>
             </div>
@@ -380,15 +380,15 @@
                     <li class="checkmark">
                       Divide the list into two groups:
                       <strong>'New Challenges' </strong> and
-                      <strong>'Past Challenges'</strong>, making it easy for
-                      players to instantly identify the newest challenges.
+                      <strong>'Past Challenges'</strong>, to help players
+                      instantly identify the newest challenges.
                     </li>
                     <li class="checkmark">
-                      The space is very tight for writing a title for 'Lost
-                      Legend' (and we also need to consider localization).
-                      Instead, consider using a "month" to consistently inform
-                      players about the release of a new 'Lost Legend' every
-                      month.
+                      The space for writing a 'Lost Legend' title is limited,
+                      and we also need to consider localization. Therefore, I
+                      use a 'month' to indicate that we are releasing a new game
+                      every month. This way, players will be informed that they
+                      can expect a new 'Lost Legend' each month.
                     </li>
                     <li class="checkmark">
                       Display a lock icon alongside the thumbnail to indicate
@@ -449,8 +449,8 @@
                 <p>
                   As a UX designer, my primary responsibility is to provide
                   comprehensive guidelines for both the engineering and art
-                  teams. Ensure alignment with all involved teams, fostering a
-                  cohesive approach to achieving our design goals.
+                  teams and ensure alignment with all involved teams, fostering
+                  a cohesive approach to achieving our design goals.
                 </p>
               </div>
             </div>
@@ -490,16 +490,16 @@
                     Can we retrieve the newest item from the data?
                   </li>
                   <li class="checkmark">
-                    Can we add use fake data to generate the locked item in the
+                    Can we use fake data to generate the locked item in the
                     dataset?
                   </li>
                   <li class="checkmark">
-                    Can we display the month in the list? Do we have that colum
-                    in data?
+                    Can we display the month in the list? Is this data
+                    available?
                   </li>
                   <li class="checkmark">
-                    How should the description text in the data be written? Can
-                    we use bullet points?
+                    Wondering how the description text is formatted in the data.
+                    Can we use bullet points?
                   </li>
                 </ul>
               </div>
@@ -611,23 +611,6 @@
             </div>
           </div>
         </div>
-        <!-- <div class="solved">
-          <div class="container">
-            <div class="row">
-              <div class="offset-md-2 col-md-8">
-                <h2>Problem Solved - Layout</h2>
-              </div>
-            </div>
-            <div class="row space">
-              <div class="col-12 offset-md-2 col-md-4">
-                <img src="images/ml/ml-before.png" alt="before" />
-              </div>
-              <div class="col-12 col-md-4">
-                <img src="images/ml/ml-after.png" alt="after" />
-              </div>
-            </div>
-          </div>
-        </div> -->
         <div class="bedrock">
           <div class="container">
             <div class="row">
@@ -678,7 +661,7 @@
                 <p>
                   <a
                     href="https://gamesensor.info/news/minecraft_legends_sales_first_week#:~:text=SEND-,Minecraft%20Legends%20Breaks%20Sales%20Records%20with%20Impressive%20Revenue%20and%20Copies,during%20the%20same%20time%20period."
-                    class="span-bold name"
+                    class="span-bold link"
                   >
                     Minecraft Legends sales amounted to almost $1 million, with
                     almost 40,000 copies sold during the same time period.</a
@@ -775,7 +758,7 @@
                 <a href="avatar.html">Avatar: Game Product Design</a>
               </div>
               <div class="link-to-project">
-                <a href="wiki.html">CMS Implementation</a>
+                <a href="wiki.html">Content Management System</a>
               </div>
               <div class="link-to-project">
                 <a href="donanum.html">Talent Sharing Application</a>

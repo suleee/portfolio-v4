@@ -42,8 +42,7 @@ $payshepherd-color: #286cb2;
 }
 @media (min-width: 1400px) {
   .herobanner { 
-    // width: 70%;
-    max-height: 600px; /* Adjust the height for larger screens */
+    max-height: 700px; /* Adjust the height for larger screens */
   }
 }
 
@@ -104,23 +103,7 @@ hr {
     padding-bottom: $space-content-bottom;
 }
  
- 
-// .problem2-panel {
-//   border-radius: 10px;
-//   background-color: #fafaff;
-//   filter: drop-shadow(0 2px 3px rgb(0, 0, 0, 0.25));
-//   padding: $space-panel;
-//   margin-top: 16px;
-//   margin-bottom: 16px;
-// }
-
-// .problem .list {
-//   margin: 0;
-//   padding: 0;
-//   list-style-type: none;
-// } 
- 
- 
+  
   
 .icon-title {
   font-size: 0.8rem;
@@ -192,6 +175,9 @@ span {
     // filter: drop-shadow(0 3px 4px rgb(0, 0, 0, 0.1));
     padding: $space-panel;
     margin: 16px 0;
-
- 
   }
+.link{
+    color: $base-color;
+    text-decoration: underline;
+  
+}

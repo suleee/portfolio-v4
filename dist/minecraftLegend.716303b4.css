@@ -170,11 +170,6 @@ h4 {
   font-weight: 400;
 }
 
-.name {
-  color: #fff;
-  text-decoration: none;
-}
-
 .challenges li {
   padding-bottom: 10px;
 }
@@ -251,6 +246,11 @@ h4 {
 .footer .link-to-project {
   color: #fff;
   padding: 8px;
+}
+
+.link {
+  color: #00a6ff;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=minecraftLegend.716303b4.css.map */
