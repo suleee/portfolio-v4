@@ -61,8 +61,7 @@ h2 {
     width: 100%;
   padding-top: 16px; 
   h1 {
-    color: white;
-    font-family: "Noto Sans", sans-serif;
+    color: white; 
     font-size: 24px;
   }
   .works {
@@ -176,8 +175,18 @@ span {
     padding: $space-panel;
     margin: 16px 0;
   }
+
 .link{
     color: $base-color;
     text-decoration: underline;
   
+}
+
+.grey-bg{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 16px;
+    h6{
+        color:#4b4abf;
+    }
 }

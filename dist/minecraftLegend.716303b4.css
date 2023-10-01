@@ -195,7 +195,6 @@ h4 {
 
 .menu h1 {
   color: #fff;
-  font-family: Noto Sans, sans-serif;
   font-size: 24px;
 }
 
@@ -249,7 +248,7 @@ h4 {
 }
 
 .link {
-  color: #00a6ff;
+  color: #fff;
   text-decoration: underline;
 }
 

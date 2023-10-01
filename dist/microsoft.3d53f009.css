@@ -101,7 +101,6 @@ h5 {
 
 .menu h1 {
   color: #fff;
-  font-family: Noto Sans, sans-serif;
   font-size: 24px;
 }
 
@@ -138,7 +137,7 @@ hr {
   margin-bottom: 1.563rem;
 }
 
-.intro, .challenge, .research, .research-index, .testing, .goal, .problem, .solution, .pain-point, .swot, .solved, .ending {
+.intro, .challenge, .research, .research-index, .testing, .goal, .problem, .solution, .pain-point, .swot, .solved, .ending, .mid-flow-img {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }

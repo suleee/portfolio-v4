@@ -96,8 +96,7 @@ h5 {
   width: 100%;
   background-color: $mt-color;
   h1 {
-    color: white;
-    font-family: "Noto Sans", sans-serif;
+    color: white; 
     font-size: 24px;
   }
   .works {
@@ -142,7 +141,8 @@ hr {
 .pain-point,
 .swot,
 .solved,
-.ending {
+.ending,
+.mid-flow-img {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }

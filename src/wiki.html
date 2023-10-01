@@ -31,7 +31,7 @@
         <div class="container text-center">
           <div class="row align-items-center justify-content-between">
             <div class="col-md-1">
-              <a href="index.html"><h1>Jlee</h1></a>
+              <a href="index.html"><h1 class="logo">Jlee</h1></a>
             </div>
             <div class="d-none d-md-block de- col col-md-3">
               <div class="row">
@@ -61,18 +61,22 @@
               <div class="offset-md-1 col-md-6">
                 <h6>Overview</h6>
                 <p>
-                  Navigator games, a studio based in Vancouver B.C. they work
-                  directly with Iron Maiden band to develop Iron Maiden Legacy
-                  of the Beast game. The game is the #1 rated mobile RPG with
-                  high rating (4.7/5) in Google Play and Apple App Store. After
-                  the game grow players star to complain about finding
-                  information of what they need. Since the genre of the game is
-                  strategy , provide information is crucial for users. Also the
-                  size of compnay is not big so have to make the site intuitive
-                  to maintance. To solve those problem decide to use WordPress.
-                  Company already use the WordPress site for Newsfeed but that
-                  is not cusomtized bashboard so it was hard to maintance if you
-                  are not familiar of using some code or structure.
+                  Navigator games, a studio based in Vancouver B.C., working
+                  directly with music band - Iron Maiden, making game "Iron
+                  Maiden Legacy of the Beast". The game is the #1 rated mobile
+                  RPG with high (4.7/5) rating in Google Play and Apple App
+                  Store. After the game grew the players stared to ask about
+                  better information about the game items. Since the genre of
+                  the game is strategy, the information is crucial for users.
+                  Limitations and constraints required to make solution easy to
+                  use for different members of different teams. Since WordPress
+                  was already used for the Newsfeed, the decision was made to
+                  build custom solution using this CMS. This takes care of
+                  overall maintenance, access control and training related
+                  problems.
+                  <br />
+                  My task was to build custom solution that is easy to use for
+                  game players and content moderators.
                 </p>
               </div>
               <div class="offset-md-1 col-md-3">
@@ -101,13 +105,22 @@
           <div class="row">
             <div class="offset-md-1 col-md-10">
               <h2>Goal & Challenge</h2>
-              <p>
-                ​The Compendium initiative goals are easy access and search
-                while players are playing the game and easy to maintance.
-              </p>
+              <div>
+                The compendium initiative main goals are:
+                <ul>
+                  <li>
+                    Easy access and search items while payers are in the game;
+                  </li>
+                  <li>
+                    Easy and fast items maintaining for content moderators.
+                  </li>
+                </ul>
+              </div>
               <p class="space-sm-bottom">
-                The biggest challenge was I have to consider two different
-                users, visitors (players) and users (game designer).
+                The biggest challenge was to consider two different users -
+                visitors (players) and content moderators (game designers).
+                Because the way information is loaded and accesses is very
+                different.
               </p>
             </div>
           </div>
@@ -128,16 +141,19 @@
                     <li>
                       High performance
                       <ul>
-                        <li>Limited images and use text with HTML</li>
-                        <li>Fast page load time</li>
+                        <li>
+                          Limited images and use text use, because of small
+                          phone screens
+                        </li>
+                        <li>Fast page load times, players are inpatient</li>
                       </ul>
                     </li>
                     <li>
                       Clarity & readability
                       <ul>
                         <li>
-                          ​Easy to follow and easy to understand even though its
-                          long content
+                          Easy to follow and easy to understand even though
+                          content is long
                         </li>
                       </ul>
                     </li>
@@ -145,36 +161,36 @@
                       Accessible depth
                       <ul>
                         <li>Easy to access each screen</li>
-                        <li>Easy search item they are looking for</li>
+                        <li>Easy to look for items</li>
                         <li>
                           Accessibility (link pages together by icons, so the
-                          players don’t have to go back and forth to see the
-                          detail of character and abilities)
+                          players don't have to go back and forth to see full
+                          details)
                         </li>
                       </ul>
                     </li>
                   </ul>
                 </div>
                 <div class="col-md-6 panel-bg">
-                  <h5>For in-house maintenance side users</h5>
+                  <h5>For in-house maintenance users</h5>
                   <ul>
                     <li>
-                      Make it automatic system
+                      Automate the system
                       <ul>
                         <li>
-                          Game designer organize the file with Excel. By using
-                          Excel let them just upload the file in the Wordpress
-                          and it upload itself.
+                          Game designers organize content in spreadsheets for
+                          internal use. Therefore we could use same spreadsheets
+                          to upload to Wordpress.
                         </li>
                       </ul>
                     </li>
                     <li>
-                      Easy to maintanince
+                      Easy maintenance
                       <ul>
                         <li>Anyone can learn</li>
                         <li>
                           Organize the content by categories so it's easy to
-                          find content and edit content
+                          find and edit it
                         </li>
                       </ul>
                     </li>
@@ -194,13 +210,12 @@
             <div class="offset-md-1 col-10">
               <h2 class="">Design Research</h2>
               <p>
-                Researched competitor’s games to find out now a day's trendy
-                design for layout, and what kind of layout users prefers
-                (Downloaded competitor’s games, and find their wiki website).
-                Created a deck to wrote down the pros/cons of the website and
-                what kind of thing we can implement in our project. On the side,
-                I started to create SWOT Analysis of RPG games for future
-                projects.
+                Researched competitors' games to find out trendy layout to find
+                out and what kind of layout users prefers (Tried competitors'
+                games and found out their wiki websites). Created a deck to
+                write down the pros/cons of the websites and what kind of thing
+                we can implement in our project. In parallel I started to create
+                SWOT Analysis of RPG games for future projects.
               </p>
             </div>
           </div>
@@ -225,11 +240,11 @@
         <div class="row">
           <div class="offset-md-1 col-10">
             <h2 class="">Wireframe</h2>
-            <p>
-              Once I had a solid design direction, I began to produce high & low
-              fidelity mockups, which would then be converted into prototypes
-              with limited functionalities. Used Invision to do flow test and
-              functionality test with the team.
+            <p class="space-bottom">
+              Once I had a solid design direction, I began to produce low & high
+              fidelity mockups, which would then be converted into prototypes.
+              Used Invision to do flow test and functionality test with internal
+              team.
             </p>
           </div>
         </div>
@@ -239,9 +254,9 @@
               <div class="col-2">
                 <img src="images/wiki/mobile-first.png" />
               </div>
-              <div class="col-6">
-                <h5>Mobile First</h5>
-                <p>
+              <div class="col-4 grey-bg">
+                <h6>Mobile First</h6>
+                <p class="sm-text">
                   The entire page was mainly designed mobile-first (horizontal
                   size) because the site needed to be loaded inside of the game.
                 </p>
@@ -261,7 +276,7 @@
           <div class="offset-md-1 col-10">
             <div class="col-12">
               <h2 class="">USER INTERFACE</h2>
-              <p>
+              <p class="space-bottom">
                 The game has its own color scheme, so I did not have many
                 options to choose the color. I tried to balance out the colors
                 with items and images on the page.
@@ -279,10 +294,10 @@
         <div class="row">
           <div class="offset-md-1 col-10">
             <h2 class="">Flow Chart</h2>
-            <p>
-              ​Link all pages on Invision, so the team can test its
-              functionality before building the site with WordPress. Worked
-              closely with game designers to improve screen flow.
+            <p class="space-bottom">
+              Linked all pages on Invision, so the team can test its
+              functionality before building the site with WordPress. I worked
+              together with game designers to improve screen flow.
             </p>
           </div>
         </div>
@@ -296,9 +311,9 @@
         <div class="row">
           <div class="offset-md-1 col-8">
             <h2 class="">Final work</h2>
-            <p>
-              ​​Worked closely with game designers to update the layout based on
-              the new content.
+            <p class="space-bottom">
+              I worked closely with game designers to update the layout to match
+              new content.
             </p>
           </div>
         </div>
@@ -316,20 +331,22 @@
               <div class="col-md-6">
                 <h2 class="">Building structure in WordPress</h2>
                 <p>
-                  The company use WordPress site for Newfeed even-though the
-                  game is mobile game. The reason is it's easy to build and it’s
-                  faster than developing the site with plain HTML. However, they
-                  did not care about the person who maintance the site and also
-                  performance.
+                  The company use WordPress site for Newsfeed. This technology
+                  was chosen so it is easy to build and maintain compared with
+                  plain HTML. However, implementors did not consider site
+                  performance nor maintainers' technical abilities.
                 </p>
                 <p>
-                  To solve the maintance problem, I decide to build customized
-                  the blog type of site so whoever come they can learn in one
-                  day to maintance the site. Also, I know that if I use the PHP,
-                  HTML, CSS code and with 1-2 plugins, it will high performace
-                  on the web and app. The company never had this sytem before so
-                  I build sample page to show the team how it will work and also
-                  check the site performance through
+                  To solve the maintenance problems, I decide to build custom
+                  the blog type, so it is easy to learn and adapt for future
+                  users and it would not interface with existing code base.
+                  Also, I knew that if I use the PHP, HTML, CSS and limit
+                  solution with 1-2 plugins, it would have least impact on
+                  performance for web and app users. Team never used similar
+                  system before so I had to convince the team. After I finish
+                  the prototype phase, I create simple page to demonstrate how
+                  the site will work to the team, also proved site performance
+                  impact with
                   <a href="https://gtmetrix.com/" class="link">GTmetrix</a>.
                 </p>
               </div>
@@ -347,17 +364,30 @@
               <div class="col-md-6">
                 <h2 class="">CSV Uploader</h2>
                 <p>
-                  I start to plan how I am going to organize the pages and
-                  categories meanwhile I found out game designer use excel to
-                  organzie the game items. If I make the normal site they have
-                  to copy paste whole information. To avoid doing irelating work
-                  I decide to use CSV uploader. I was going to use JSON file to
-                  upload but fesiblly it will take along time so I decide to use
-                  plugin to upload CSV file. If I used that what happend is all
-                  the data upload automatically and generate the pages it needs.
+                  When I started to plan on how I'm going to organize content,
+                  pages, categories and other details. Game designer shared the
+                  spreadsheet with all the game characters, items and other less
+                  important details. Firstly I had an idea to try to convert
+                  information to JSON, this would let me use only data I need
+                  and it would map to data format I need for website. Plus would
+                  not need any changes in already used spreadsheet format, all
+                  changes to this file might cause problems for other teams.
+                  However there was some technical and future proof
+                  complications I had to consider. Therefore game designer and
+                  other teams agreed to update spreadsheet to match wiki
+                  requirements. When we agree on spreadsheet/CSV I was able to
+                  start using the CSV Uploader plugin. This plugin let to upload
+                  CSV file and is able to create new pages with custom WordPress
+                  post type for each line item.
+                  <br />
+                  This solution is very effective and saves a lot of time, while
+                  making process clear and error prone versus uploading and
+                  editing each individual page manually. Content moderators can
+                  update content very fast so new information for players are
+                  accessible in hours versus weeks.
                 </p>
               </div>
-              <div class="col-md-6">
+              <div class="offset-md-1 col-md-5">
                 <img src="images/wiki/csv.jpg" alt="wordpress" />
               </div>
             </div>
@@ -369,16 +399,16 @@
           <div class="offset-md-1 col-10">
             <div class="row">
               <div class="col-6">
-                <h2 class="">CONTINUED OPTIMIZATION & MAINTENANCE WORK</h2>
+                <h2 class="">Optimization & maintenance work</h2>
 
                 <p>
-                  ​​Kept tracking users behavior via
+                  Kept track of users behavior via
                   <a
                     href="https://marketingplatform.google.com/about/analytics/"
                     class="link"
                     >Google Analytics</a
-                  >. Our team does a monthly meeting to discuss results and what
-                  are the things we can improve in the next update.
+                  >. Our team did a monthly meetings to discuss results and what
+                  can be improved and updated.
                 </p>
               </div>
               <div class="col">

@@ -3,22 +3,21 @@
 @media (min-width: 0px) {
   .herobanner {
     max-height: 250px; /* Adjust the height for larger screens */
-  }
-  // .intro{
-  //   padding-top: $space-content-top;
-  //   padding-bottom: $space-content-bottom;
-  // }
+  } 
 }
+
 @media (min-width: 350px) {
   .herobanner {
     max-height: 300px; /* Adjust the height for larger screens */
   }
 }
+
 @media (min-width: 500px) {
   .herobanner {
     max-height: 400px; /* Adjust the height for larger screens */
   }
 }
+
 @media (min-width: 768px) {
   .herobanner {
     max-height: 550px; /* Adjust the height for larger screens */
@@ -29,11 +28,13 @@
     max-height: 700px; /* Adjust the height for larger screens */
   }
 }
+
 @media (min-width: 1200px) {
   .herobanner {
     max-height: 1200px; /* Adjust the height for larger screens */
   }
 }
+
 @media (min-width: 1400px) {
   .herobanner {
     // width: 80%;
@@ -58,8 +59,7 @@ h6 {
 }
 
 .menu {
-  height: 52px;
-  // background-color: #5a719a8f;
+  height: 52px; 
   position: absolute;
   width: 100%;
   h1 {
@@ -67,6 +67,7 @@ h6 {
     font-size: 24px;
     text-shadow: 1px 1px 2px black;
     padding-top: 16px;
+    
   }
   .works {
     color: white;

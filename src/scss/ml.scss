@@ -20,15 +20,7 @@ li {
     #281c26 98%,
     #0c0d14 10%
   );
-}
-// background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
-// .herobanner {
-//   background-image: url("../images/ml/ml-herobanner.jpg");
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   height: 50rem;
-// }
+} 
 
 .herobanner {
   background-image: url("../images/ml/ml-herobanner.jpg");
@@ -233,8 +225,7 @@ h4 {
   position: absolute;
   width: 100%;
   h1 {
-    color: white;
-    font-family: "Noto Sans", sans-serif;
+    color: white; 
     font-size: 24px;
   }
   .works {
@@ -280,6 +271,7 @@ h4 {
   }
 }
 .link{
-  color:#00a6ff;
+  // color:#00a6ff;
+  color: white;
   text-decoration: underline;
  }

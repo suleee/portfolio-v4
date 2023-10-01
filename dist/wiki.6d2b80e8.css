@@ -64,7 +64,6 @@ h2 {
 
 .menu h1 {
   color: #fff;
-  font-family: Noto Sans, sans-serif;
   font-size: 24px;
 }
 
@@ -176,6 +175,16 @@ span {
 .link {
   color: #c23b27;
   text-decoration: underline;
+}
+
+.grey-bg {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.grey-bg h6 {
+  color: #4b4abf;
 }
 
 /*# sourceMappingURL=wiki.6d2b80e8.css.map */

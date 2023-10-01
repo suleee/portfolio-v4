@@ -70,12 +70,10 @@ h2 {
 }
 
 .menu {
-  height: 52px;
+  height: 64px;
   padding-top: 16px;
   background-color: white;
-  h1 {
-    color: black;
-    font-family: "Noto Sans", sans-serif;
+  h1 { 
     font-size: 24px;
   }
   .works {
@@ -159,7 +157,7 @@ hr {
   padding: 0;
 }
 
-.logo {
+.c-logo {
   border: 1px solid rgb(237, 237, 237);
   border-radius: 4px;
   padding: 14px 0 16px 0;
