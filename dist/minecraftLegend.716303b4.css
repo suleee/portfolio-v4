@@ -252,4 +252,8 @@ h4 {
   text-decoration: underline;
 }
 
+.link:hover {
+  color: #00a6ff;
+}
+
 /*# sourceMappingURL=minecraftLegend.716303b4.css.map */

@@ -55,23 +55,22 @@
             <div class="row">
               <div class="offset-md-1 col-md-6">
                 <h6>Overview</h6>
+                <p class="space-sm-bottom">
+                  Navigator Games, a studio based in Vancouver, B.C., primarily
+                  focuses on the "Iron Maiden Legacy of the Beast" game. They
+                  often receive requests for a page containing information about
+                  in-game items. Achieving a high rating (4.7/5) on Google Play
+                  and the Apple App Store makes having such information readily
+                  available crucial.
+                </p>
                 <p>
-                  Navigator games, a studio based in Vancouver B.C., working
-                  directly with music band - Iron Maiden, making game "Iron
-                  Maiden Legacy of the Beast". The game is the #1 rated mobile
-                  RPG with high (4.7/5) rating in Google Play and Apple App
-                  Store. After the game grew the players stared to ask about
-                  better information about the game items. Since the genre of
-                  the game is strategy, the information is crucial for users.
-                  Limitations and constraints required to make solution easy to
-                  use for different members of different teams. Since WordPress
-                  was already used for the Newsfeed, the decision was made to
-                  build custom solution using this CMS. This takes care of
-                  overall maintenance, access control and training related
-                  problems.
-                  <br>
-                  My task was to build custom solution that is easy to use for
-                  game players and content moderators.
+                  My task was to create a solution that would be easy for both
+                  game players and content moderators to use. Since the company
+                  already had a Newsfeed on WordPress, I decided to leverage
+                  this CMS for my solution. This approach reduces the IT team's
+                  maintenance workload and minimizes the learning curve for
+                  content moderators. Most importantly, it ensures that players
+                  receive the requested feature efficiently.
                 </p>
               </div>
               <div class="offset-md-1 col-md-3">
@@ -307,8 +306,9 @@
           <div class="offset-md-1 col-8">
             <h2 class="">Final work</h2>
             <p class="space-bottom">
-              I worked closely with game designers to update the layout to match
-              new content.
+              The final work as delivered by working with game designers, to
+              fully match game and content layout. And IT/engineering team who
+              verified and approved full solution.
             </p>
           </div>
         </div>
@@ -324,7 +324,7 @@
           <div class="offset-md-1 col-10">
             <div class="row">
               <div class="col-md-6">
-                <h2 class="">Building structure in WordPress</h2>
+                <h2 class="">Building in WordPress</h2>
                 <p>
                   The company use WordPress site for Newsfeed. This technology
                   was chosen so it is easy to build and maintain compared with
@@ -332,7 +332,7 @@
                   performance nor maintainers' technical abilities.
                 </p>
                 <p>
-                  To solve the maintenance problems, I decide to build custom
+                  To mitigate the maintenance problems, I decide to build custom
                   the blog type, so it is easy to learn and adapt for future
                   users and it would not interface with existing code base.
                   Also, I knew that if I use the PHP, HTML, CSS and limit
@@ -343,6 +343,16 @@
                   the site will work to the team, also proved site performance
                   impact with
                   <a href="https://gtmetrix.com/" class="link">GTmetrix</a>.
+                </p>
+                <p>
+                  I used a plugin to enhance search functionality and content
+                  linking. However, to ensure a seamless user experience, I
+                  needed to write custom JavaScript and CSS code. I also
+                  utilized HTML <em>data</em> attributes for pre-filtering and
+                  'secret' linking. This approach allowed the most relevant
+                  content to be pre-loaded for the user. While this part of the
+                  solution demanded the most code, I was extremely pleased with
+                  how elegantly I was able to implement it.
                 </p>
               </div>
               <div class="col-md-6">
@@ -358,28 +368,35 @@
             <div class="row">
               <div class="col-md-6">
                 <h2 class="">CSV Uploader</h2>
+                <p class="space-sm-bottom">
+                  When I began planning how to organize content, pages,
+                  categories, and other details, the game designer shared a
+                  spreadsheet containing all the game characters, items, and
+                  other less important information. Initially, I had the idea of
+                  converting this information into JSON, which would allow me to
+                  use only the data I needed and format it according to the
+                  website's requirements. This approach would also avoid the
+                  need for any changes to the existing spreadsheet format, which
+                  could potentially cause issues for other teams. However, I had
+                  to consider some technical and future-proofing complications.
+                </p>
+                <p class="space-sm-bottom">
+                  After discussions with the game designer and other teams, we
+                  agreed to update the spreadsheet to align with the wiki
+                  requirements. Once we had an agreed-upon spreadsheet in CSV
+                  format, I was able to leverage the CSV Uploader plugin. This
+                  plugin enabled the upload of the CSV file and the creation of
+                  new pages with a custom WordPress post type for each line
+                  item.
+                </p>
                 <p>
-                  When I started to plan on how I'm going to organize content,
-                  pages, categories and other details. Game designer shared the
-                  spreadsheet with all the game characters, items and other less
-                  important details. Firstly I had an idea to try to convert
-                  information to JSON, this would let me use only data I need
-                  and it would map to data format I need for website. Plus would
-                  not need any changes in already used spreadsheet format, all
-                  changes to this file might cause problems for other teams.
-                  However there was some technical and future proof
-                  complications I had to consider. Therefore game designer and
-                  other teams agreed to update spreadsheet to match wiki
-                  requirements. When we agree on spreadsheet/CSV I was able to
-                  start using the CSV Uploader plugin. This plugin let to upload
-                  CSV file and is able to create new pages with custom WordPress
-                  post type for each line item.
-                  <br>
-                  This solution is very effective and saves a lot of time, while
-                  making process clear and error prone versus uploading and
-                  editing each individual page manually. Content moderators can
-                  update content very fast so new information for players are
-                  accessible in hours versus weeks.
+                  This solution proved to be highly effective, saving a
+                  significant amount of time, streamlining the process, and
+                  reducing the potential for errors when compared to the manual
+                  uploading and editing of individual pages. Content moderators
+                  were able to update content rapidly, ensuring that new
+                  information for players became accessible within hours rather
+                  than weeks.
                 </p>
               </div>
               <div class="offset-md-1 col-md-5">
