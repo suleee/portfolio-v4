@@ -105,13 +105,29 @@
   transform: translateY(900px);
 }
 
+.works figure {
+  background: #fff;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.works figure:hover + span {
+  opacity: 1;
+  bottom: -36px;
+}
+
 .works img {
   border-radius: 6px;
+  transition: all .3s ease-in-out;
+  transform: scale(1);
 }
 
 .works img:hover {
-  z-index: 1;
-  background-color: #fff;
+  transform: scale(1.1);
 }
 
 .home span {
