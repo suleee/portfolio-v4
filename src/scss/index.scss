@@ -97,18 +97,21 @@
   .menu {
     height: 120px;
   }
+} 
+
+.item {
+  padding: 0 40px 72px 40px;
 }
 
 .works {
+  padding-top: $space-content-top;
   transform: translateY(900px);
   animation: slideUp 1.8s ease-in-out forwards 0.8s;
   img {
     border-radius: 6px;
-    &:hover {
-      // background-color: black;
-      // opacity: 0.7;
-      width: 102%;
-      // border: 8px solid black;
+    &:hover { 
+      background-color: white;
+      z-index: 1;
     }
   }
 }
@@ -147,13 +150,7 @@
   margin-bottom: 40px;
 }
 
-.works {
-  padding-top: $space-content-top;
-}
-
-.item {
-  padding: 0 40px 72px 40px;
-}
+ 
 
 .footer {
   padding-top: $space-content-top;

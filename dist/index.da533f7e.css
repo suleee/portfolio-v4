@@ -95,7 +95,12 @@
   }
 }
 
+.item {
+  padding: 0 40px 72px;
+}
+
 .works {
+  padding-top: 4.768rem;
   animation: 1.8s ease-in-out .8s forwards slideUp;
   transform: translateY(900px);
 }
@@ -105,7 +110,8 @@
 }
 
 .works img:hover {
-  width: 102%;
+  z-index: 1;
+  background-color: #fff;
 }
 
 .home span {
@@ -138,14 +144,6 @@
 
 .space-bottom {
   margin-bottom: 40px;
-}
-
-.works {
-  padding-top: 4.768rem;
-}
-
-.item {
-  padding: 0 40px 72px;
 }
 
 .footer {
