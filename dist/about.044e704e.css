@@ -146,6 +146,10 @@ a:hover {
   display: block;
 }
 
+.dropbtn {
+  cursor: pointer;
+}
+
 .dropdown-content a:hover {
   color: #fff;
   background-color: #c23b27;
