@@ -21,13 +21,6 @@ body {
   font-weight: 400;
 }
 
-.logo{
-  // font-family: "Roboto", sans-serif;
-  // font-weight: 500;
-  // font-size: 2.052rem; 
-  // padding-top: 10px;
-}
-
 h1,
 h2,
 h3,
@@ -150,3 +143,34 @@ a:hover {
 .space-lg-bottom {
   padding-bottom: 72px;
 }
+
+// dropdown menu for works
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: -100px;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  // text-align: left;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: $base-color;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
