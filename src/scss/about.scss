@@ -44,6 +44,7 @@
   img {
     border-radius: 4px;
     max-width: 300px;
+    height: auto;
   }
 }
 
@@ -71,11 +72,6 @@
   position: relative;
   transition: all 0.8s ease;
 }
-
-// .about-page {
-//     background-color: $bg-color;
-//     position: relative;
-//   }
 
 .menu {
   width: 100%;
@@ -108,11 +104,11 @@
     border-radius: 4px;
     padding: 16px 20px;
     text-align: center;
-    margin: 0 20px;
+    margin: 0 2%;
     &:hover {
       background-color: $base-color;
     }
-  } 
+  }
 }
 
 .download-icon {
@@ -132,7 +128,6 @@
   }
 }
 
-.about,
 .design,
 .career,
 .design-principle,

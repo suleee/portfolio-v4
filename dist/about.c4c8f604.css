@@ -45,6 +45,7 @@
 .profile img {
   border-radius: 4px;
   max-width: 300px;
+  height: auto;
 }
 
 .item-con img {
@@ -100,7 +101,7 @@
   text-align: center;
   background-color: #000;
   border-radius: 4px;
-  margin: 0 20px;
+  margin: 0 2%;
   padding: 16px 20px;
 }
 
@@ -127,7 +128,7 @@
   width: 38px;
 }
 
-.about, .design, .career, .design-principle, .books {
+.design, .career, .design-principle, .books {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
