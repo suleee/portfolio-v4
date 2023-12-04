@@ -96,16 +96,16 @@
   padding: 24px 0;
 }
 
-.about-page .about .download-btn {
+.download-btn {
   color: #fff;
   text-align: center;
   background-color: #000;
   border-radius: 4px;
-  margin: 0 2%;
+  margin-top: 2rem;
   padding: 16px 20px;
 }
 
-.about-page .about .download-btn:hover {
+.download-btn:hover {
   background-color: #c23b27;
 }
 

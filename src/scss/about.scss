@@ -97,17 +97,17 @@
     margin: 0 auto;
     padding: 24px 0;
   }
+}
 
-  .download-btn {
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    padding: 16px 20px;
-    text-align: center;
-    margin: 0 2%;
-    &:hover {
-      background-color: $base-color;
-    }
+.download-btn {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 16px 20px;
+  text-align: center;
+  margin-top: 2rem;
+  &:hover {
+    background-color: $base-color;
   }
 }
 
