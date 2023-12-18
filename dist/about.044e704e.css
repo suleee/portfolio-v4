@@ -163,4 +163,10 @@ a:hover {
   display: block;
 }
 
+.left-menu {
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
 /*# sourceMappingURL=about.044e704e.css.map */
