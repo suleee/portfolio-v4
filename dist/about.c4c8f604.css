@@ -113,6 +113,10 @@
   max-width: 28px;
 }
 
+.resume-btn-text {
+  color: #fff;
+}
+
 .footer {
   padding-top: 4.768rem;
   padding-bottom: 160px;
