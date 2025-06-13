@@ -1,0 +1,289 @@
+@import "library";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  color: white;
+}
+
+.herobanner-bg {
+  background-image: linear-gradient(
+    #0b0b17,
+    #090f22 65%,
+    #281c26 98%,
+    #0c0d14 10%
+  );
+}
+
+.herobanner {
+  background-image: url("../images/mlll/mlll-herobanner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px; /* Adjust the initial height as needed */
+  text-align: center;
+  // display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ending {
+  //   background-image: url("../images/ml/ml-footer.png");
+  min-height: 500px;
+  max-height: 620px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.thank {
+  padding: 10rem;
+}
+@media (min-width: 0px) {
+  .herobanner {
+    max-height: 280px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 350px) {
+  .herobanner {
+    max-height: 300px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 500px) {
+  .herobanner {
+    max-height: 400px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 768px) {
+  .herobanner {
+    max-height: 550px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 900px) {
+  .herobanner {
+    max-height: 700px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 1200px) {
+  .herobanner {
+    max-height: 900px; /* Adjust the height for larger screens */
+  }
+}
+@media (min-width: 1400px) {
+  .herobanner {
+    // width: 80%;
+    margin: 0 auto;
+    // max-height: 1500px; /* Adjust the height for larger screens */
+  }
+}
+
+.bg1 {
+  background-color: #0e0d13;
+  background-image: url("../images/ml/bg-pattern.jpg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.bg2 {
+  background-color: #0e0d13;
+  //   background-image: url("../images/ml/ml-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.bg3 {
+  background-color: rgba(7, 7, 9, 0.5);
+}
+
+hr {
+  border: none;
+  border-top: 3px dashed rgb(152, 152, 152);
+  margin-bottom: $space-title-bottom;
+  margin-top: $space-title-bottom;
+}
+
+.solution-bg {
+  background-color: #17171b;
+}
+
+.problem-bg,
+.solution-bg {
+  padding: 2rem;
+  li {
+    list-style-type: square;
+  }
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.checkmark {
+  background: url("../images/ml/icon-check.jpg") no-repeat left top;
+  //   height: 80px;
+  padding-left: 44px;
+  padding-bottom: 24px;
+}
+
+.intro,
+.problem-solution,
+.challenges,
+.userflow,
+.wireframe,
+.userflow2,
+.breakdown,
+.solved,
+.bedrock,
+.engagement,
+.extra,
+.UI,
+.testing,
+.qa,
+.final-work,
+.ux,
+.final {
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
+}
+
+.summary {
+  padding-top: $space-content-top;
+  padding-bottom: 120px;
+}
+
+.research {
+  margin-top: $space-content-top;
+  margin-bottom: $space-content-bottom;
+}
+
+.summary {
+  p,
+  h5 {
+    margin-bottom: 0;
+  }
+  img {
+    width: 100%;
+    // height: 100%;
+  }
+}
+.role-bg {
+  background: #222129;
+  margin: 0 2%;
+  padding: 3% 2%;
+  height: 5.5rem;
+  border-radius: 0.8rem;
+}
+
+h2 {
+  padding-bottom: $space-subtitle-bottom;
+  margin-bottom: 0;
+}
+
+h4 {
+  padding-bottom: $space-subtitle-bottom;
+}
+
+.thought-sm-con {
+  background-color: #1c1a23;
+  padding: $space-subtitle-bottom;
+  margin: $space-title-bottom 0;
+}
+
+.space {
+  padding-top: 36px;
+}
+
+.span-grey {
+  color: $grey-text;
+}
+
+.span-bold {
+  font-weight: 400;
+}
+
+.challenges {
+  li {
+    padding-bottom: 10px;
+  }
+  h4 {
+    padding-bottom: 0;
+  }
+}
+
+.UI {
+  .font-img {
+    width: 74%;
+  }
+}
+
+.menu {
+  height: 52px;
+  padding-top: 16px;
+  position: absolute;
+  width: 100%;
+  h1 {
+    color: white;
+    font-size: 24px;
+  }
+  .works {
+    color: white;
+    &:hover {
+      color: $base-color;
+    }
+  }
+  .contact {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border-radius: 4px;
+    &:hover {
+      background-color: $base-color;
+      color: white;
+    }
+  }
+}
+
+.footer {
+  //   border-top: 1px solid #005bc0;
+  padding-top: $space-content-top;
+  padding-bottom: $space-ending;
+  background-color: black;
+  img {
+    max-width: 28px;
+    border-radius: 4px;
+  }
+  a {
+    color: white;
+    &:hover {
+      color: $base-color;
+    }
+  }
+  .email-address {
+    margin-bottom: 36px;
+  }
+  .link-to-project {
+    // text-decoration: underline;
+    color: white;
+    padding: 8px;
+  }
+}
+.link {
+  // color:#00a6ff;
+  color: white;
+  text-decoration: underline;
+  &:hover {
+    color: #00a6ff;
+  }
+}
