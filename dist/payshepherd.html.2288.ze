@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jisu Lee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/favicon.b9f0449c.ico">
+    <link rel="stylesheet" href="/about.044e704e.css">
+    <link rel="stylesheet" href="/payshepherd.6e38b1bb.css">
+    <script src="/about.18dbc454.js" defer=""></script>
+  </head>
+
+  <!-- <script>
+    var p = prompt("Please provide password");
+    if (p != "abc123") {
+      history.back("index.html");
+    }
+  </script> -->
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="payshepherd">
+      <div class="menu">
+        <div class="container text-center">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-1">
+              <a href="/index.html"><h1 class="logo">Jlee</h1></a>
+            </div>
+            <div class="d-none d-md-block de- col col-md-3">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="/index.html" class="works">Works</a>
+                </div>
+                <div class="offset-md-1 col-md-3">
+                  <a href="/about.html" class="works">About</a>
+                </div>
+                <div class="offset-md-1 col-md-3">
+                  <a href="#footer2" class="contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box"></div>
+      <div class="herobanner-bg">
+        <div class="herobanner"></div>
+      </div>
+
+      <div class="">
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="offset-md-2 col-md-5">
+                <h6>Overview</h6>
+                <p>
+                  The client, Paysherped, is a B2B platform company that
+                  centralizes, digitizes, and verifies all cost submissions
+                  related to labor, equipment, and materials. It's designed to
+                  proactively alert to potential risks.
+                </p>
+                <p>
+                  Paysherped is in need of a fresh design that prioritizes
+                  user-centrality. I joined the team to address usability issues
+                  and ensure that users can easily access all the data they
+                  require for their work, effortlessly organize table layouts,
+                  and manage submissions.
+                </p>
+                <p>
+                  In this project, I worked closely with both front-end and
+                  back-end developers to rebuild crucial pages of the site.
+                </p>
+              </div>
+              <div class="offset-md-1 col-md-4">
+                <div>
+                  <h6>Role</h6>
+                  <p>Product Design Lead</p>
+                </div>
+                <div>
+                  <h6>Duration</h6>
+                  <p>1 month (part-time)</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="offset-md-2 col-md-1">
+                <h6>Client</h6>
+                <div class="c-logo">
+                  <img src="/logo.253db67d.png" alt="client-logo">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg end -->
+      <div class="bg1 challenge">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Challenge</h2>
+              <p>
+                While developing the design for the B2B platform, my primary
+                challenge was to align with and fully understand the brand's
+                unique tone of voice. My goal was to implement an updated UI/UX
+                that seamlessly aligned with the client's requirements and
+                vision. Additionally, I carefully considered how to effectively
+                present large volumes of data to the user.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg end -->
+      <div class="research">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Research & Planning</h2>
+              <ul>
+                <li class="space-sm-bottom">
+                  <h5>Deep understanding of the company and its project:</h5>
+                  <ul>
+                    <li>
+                      Identify the target audience, what they aim to sell, and
+                      the overall direction of the company's goals.
+                    </li>
+                    <li>
+                      Determine the critical factors for business success.
+                    </li>
+                  </ul>
+                </li>
+                <li class="space-sm-bottom">
+                  <h5>Find problems:</h5>
+                  <ul>
+                    <li>
+                      Engage with clients to uncover the primary issues they
+                      face with their clients.
+                    </li>
+                    <li>
+                      Conduct online research to discover common pain points
+                      users have with B2B platforms.
+                    </li>
+                    <li>
+                      Create an account on the platform and conduct usability
+                      tests.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h5>Design research:</h5>
+                  <ul>
+                    <li>
+                      Research other platforms to understand how they
+                      effectively present chunks of data on their pages.
+                    </li>
+                    <li>
+                      Stay updated on current design trends by exploring the
+                      latest design trends on the internet.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="problem">
+        <div class="problem1">
+          <div class="container">
+            <div class="row">
+              <div class="offset-md-2 col-md-8">
+                <h2>Problems</h2>
+                <p class="space-sm-bottom">
+                  In the beginning, the client wanted to create a prototype to
+                  demonstrate the platform's functionality to their clients.
+                  Their primary focus was on this aspect rather than the user
+                  experience. However, after securing some clients and people
+                  began using the platform, some clients expressed concerns
+                  about the user interface. As a result, they have decided to
+                  prioritize making the site more user-friendly and have
+                  requested my assistance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="problem2">
+          <div class="container">
+            <div class="row">
+              <div class="offset-md-2 col-md-8 problem2-panel">
+                <div class="space-sm-bottom">
+                  <h5 class="space-sm-bottom">
+                    What are the issues or concerns that people have with the
+                    client's platform?
+                  </h5>
+                  <div class="">
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col">
+                        <p>
+                          Some clients require certain information, while others
+                          do not.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col">
+                        <p>
+                          There is no filtering functionality, so people have a
+                          hard time finding information.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col"><p>Not enough notifications.</p></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col"><p>Unnecessary clicking.</p></div>
+                    </div>
+                  </div>
+                </div>
+                <hr>
+                <div class=" ">
+                  <h5 class="space-sm-bottom">
+                    Research the user engagement of the sites that the company
+                    is benchmarking.
+                  </h5>
+                  <ul class="list">
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col">
+                        <p>Complicated to setup and learn.</p>
+                      </div>
+                    </div>
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col"><p>Time-consuming to maintain.</p></div>
+                    </div>
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col">
+                        <p>
+                          Sometimes fields/criteria can be limiting and
+                          extremely confusing.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row space-xs-bottom">
+                      <div class="col-1 wrong-icon">
+                        <img src="/wrong-icon.3c2c14dc.png" alt="icon-wrong">
+                      </div>
+                      <div class="col">
+                        <p>User interface must be definitely improved.</p>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="solution">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Proposed Solutions</h2>
+            </div>
+            <div class="offset-md-2 col-md-8">
+              <ul class="list">
+                <li class="space-sm-bottom">
+                  <h5>Efficiency in Rebuilding the Website:</h5>
+                  <ul class="list">
+                    <li class="">
+                      As the company is small and I work part-time as a
+                      freelancer, I implemented an 8pt design system and used
+                      rem units for typography. This helps developers address
+                      minor issues even when I'm not available.
+                    </li>
+                    <li class="">
+                      Utilize the Bootstrap CSS library to unify layout and
+                      design elements.
+                    </li>
+                  </ul>
+                </li>
+                <li class="space-sm-bottom">
+                  <h5>Enhanced Functionality:</h5>
+                  <ul class="list">
+                    <li class="">
+                      Introduce a filtering system to allow users to quickly
+                      find information.
+                    </li>
+                    <li class="">
+                      Make the menu user-manageable, enabling users to remove
+                      tabs they don't need and reducing unnecessary scrolling.
+                    </li>
+                  </ul>
+                </li>
+                <li class="space-sm-bottom">
+                  <h5>Update Design:</h5>
+                  <ul class="list">
+                    <li class="">
+                      Revise and enhance the design layout and composition.
+                    </li>
+                    <li class="">
+                      Add clear notifications to prevent user confusion about
+                      system statuses.
+                    </li>
+                    <li class="">
+                      Create new icons with simple symbols and add tooltips.
+                    </li>
+                    <li class="">
+                      Ensure that data and content are correctly categorized,
+                      and reorganize if needed.
+                    </li>
+                    <li class="">
+                      Prioritize a user-centric and intuitive design.
+                    </li>
+                  </ul>
+                </li>
+                <li class="space-sm-bottom">
+                  <h5>Simplifying the Process:</h5>
+                  <ul class="list">
+                    <li class="">
+                      Consider following the 3-click rule as it can help users
+                      achieve their goals before becoming discouraged. While it
+                      may not always be the perfect approach, it's worth
+                      considering.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center space-top">
+            <div class="col-md-6">
+              <img src="/p-img1.0f88becf.png" alt="pashepherd-img">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ui bg1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 offset-md-2 col-md-8">
+              <div class="ui-con-box">
+                <h2>Design System</h2>
+                <p class="space-bottom">
+                  There were no design systems or UI components, so I
+                  encountered a new design system.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 panel-bg">
+              <div class="ui-con-box">
+                <h5>Grid</h5>
+                <p>
+                  Use <span>8 point Layout Grid Systems</span>. Because
+                  consistent and scalable spacing helps both designer and
+                  developer to work much faster on a project.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 panel-bg">
+              <div class=" ">
+                <h5>Typeface</h5>
+                <p class="space-sm-bottom">
+                  Mainly use <span>Open Sans</span> for typography and apply a
+                  <span>type scale</span> for text sizes, except for the body
+                  font.
+                </p>
+                <hr>
+                <div class="row justify-content-center">
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-4 typeface1"><h3>Title</h3></div>
+                      <div class="col-4 typeface1"><h3>31.25px</h3></div>
+                      <div class="col-4 typeface1"><h3>1.953rem</h3></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-4"><h5>SubTitle - H5</h5></div>
+                      <div class="col-4"><h5>20px</h5></div>
+                      <div class="col-4"><h5>1.25rem</h5></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-4"><p>Body - p</p></div>
+                      <div class="col-4"><p>16px</p></div>
+                      <div class="col-4"><p>1rem</p></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-4"><p>Body small - p</p></div>
+                      <div class="col-4"><p>14px</p></div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-4"><p class="sm-text">Small - p</p></div>
+                      <div class="col-4"><p class="sm-text">12px</p></div>
+                      <div class="col-4"><p class="sm-text">0.8rem</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 panel-bg">
+              <div class=" ">
+                <h5>Color</h5>
+                <p class="space-bottom">
+                  Client wanted to retain their brand colors, so I modified just
+                  a little bit to make it work with new design.
+                </p>
+                <div class="row justify-content-center">
+                  <div class="col-6 col-md-5 text-center">
+                    <h6 class="icon-title">Old colors</h6>
+                  </div>
+                  <div class="col-6 col-md-5 text-center">
+                    <h6 class="icon-title">New colors</h6>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-8">
+                    <img src="/color.42970c65.png" alt="color">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icons">
+            <div class="row">
+              <div class="col-12 offset-md-2 col-md-8 panel-bg">
+                <div class="row">
+                  <div class="">
+                    <h5>Icons</h5>
+                    <p class="space-bottom">
+                      I've noticed that in many cases where users are confused
+                      between content icons and the icons in the top menu. To
+                      distinguish between the two, I've implemented different
+                      styles.
+                    </p>
+                  </div>
+                </div>
+                <hr>
+                <div class="row justify-content-center">
+                  <div class="col-6 col-md-5">
+                    <h6 class="icon-title">Top Menu Area Icons</h6>
+                    <div class="row icon-con">
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-search.ab4c707f.png" alt="icon-search">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-add.580bf388.png" alt="icon-add">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-setting1.2acf9dea.png" alt="icon-setting">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-notification.b30c1615.png" alt="icon-notification">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-contactus.ac43a893.png" alt="icon-contactus">
+                      </div>
+                      <div class="col-2 icon">
+                        <img src="/icon-profile.05ded837.png" alt="icon-profile">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 offset-md-1 col-md-5">
+                    <h6 class="icon-title">Content Area Icons</h6>
+                    <div class="row icon-con">
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-refresh.37bda3b8.png" alt="icon-refresh">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-download.88b3510a.png" alt="icon-download">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-upload.34162db4.png" alt="icon-upload">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-open.4beebb03.png" alt="icon-open">
+                      </div>
+                      <div class="col-2 icon right-border">
+                        <img src="/icon-more.3753fbda.png" alt="icon-more">
+                      </div>
+                      <div class="col-2 icon">
+                        <img src="/icon-close1.7ab9ddc7.png" alt="icon-close">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 offset-md-2 col-md-8 button panel-bg">
+              <div class="">
+                <h5>Buttons</h5>
+                <p class="space-sm-bottom">
+                  The buttons height is fixed at 36px, while its width still
+                  expand depending on the length of the text.
+                </p>
+                <hr>
+                <div class="row btn-row">
+                  <div class="col-3"><h6>Primary</h6></div>
+                  <div class="col-5">
+                    <p>
+                      Use for this primary actions that is necessary to complete
+                      the task.
+                    </p>
+                  </div>
+                  <div class="col-4 offset-md-1 col-md-3">
+                    <div class="primary-btn">Button</div>
+                  </div>
+                  <div class="space-sm-bottom"></div>
+                  <hr>
+                </div>
+                <div class="row btn-row">
+                  <div class="col-3">
+                    <h6>Secondly</h6>
+                  </div>
+                  <div class="col-5">
+                    <p>
+                      Use for that secondary actions that helps with the task.
+                    </p>
+                  </div>
+                  <div class="col-4 offset-md-1 col-md-3">
+                    <div class="secondary-btn">Button</div>
+                  </div>
+                  <div class="space-sm-bottom"></div>
+                  <hr>
+                </div>
+                <div class="row btn-row">
+                  <div class="col-3"><h6>Third</h6></div>
+                  <div class="col-5">
+                    <p>
+                      Use it when the primary color is already taken, and the
+                      button is important.
+                    </p>
+                  </div>
+                  <div class="col-4 offset-md-1 col-md-3">
+                    <div class="third-btn">Button</div>
+                  </div>
+                  <div class="space-sm-bottom"></div>
+                  <hr>
+                </div>
+                <div class="row btn-row">
+                  <div class="col-3"><h6 class="">Link</h6></div>
+                  <div class="col-5">
+                    <p>Use for linking to other pages only.</p>
+                  </div>
+                  <div class="col-4 offset-md-1 col-md-3">
+                    <div class="link text-center">Link</div>
+                  </div>
+                  <div class="space-sm-bottom"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 offset-md-2 col-md-8 panel-bg">
+              <div class=" ">
+                <h5>Interface</h5>
+                <p class="space-bottom">
+                  I recommend using <strong>Bootstrap CSS framework</strong> to
+                  quickly style the UI elements, while also providing a UI guide
+                  for the developers.
+                </p>
+                <div class="row">
+                  <div class="col-8 col-md-5">
+                    <img src="/left-inputs.fa9ea863.png" alt="ui-left">
+                  </div>
+                  <div class="col-8 offset-md-1 col-md-5">
+                    <img src="/right-input.17cee21b.png" alt="ui-right">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center"><span>and many more!</span></div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="architect">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2 class="text-center">Information Architect</h2>
+              <p class="space-sm-bottom">
+                I reorganized the menu groups. Initially, there were 10
+                different types of menus displayed on the pages. Some pages
+                contained very similar information. I reorganized the groups and
+                categorized the pages accordingly. My primary focus was on the
+                <abbr title="Labor, Equipment and Materials">LEMs</abbr>
+                section, which is crucial for the business.
+              </p>
+              <p class="space-sm-bottom">
+                Some companies run multiple projects simultaneously. Therefore,
+                I reorganized the pages and merged the submission page with the
+                vendor submission page. Both vendors and companies will view the
+                same table to align costs and timelines. However, they need to
+                input different information. As a result, users will see
+                different types of buttons on the screen depending on their
+                status.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <img src="/userflow.037a2117.png" alt="userflow">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="solved">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 text-center">
+              <h2 class="">Problem solved - layout</h2>
+              <p>
+                I aimed to create a simple and clean user interface, with a
+                primary focus on ensuring the transition process is intuitive
+                and delivering a user-friendly experience.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center space">
+            <div class="col-md-6">
+              <img src="/before1.96c3dcf4.jpg" alt="before1">
+            </div>
+            <div class="col-md-3">
+              <h6>Before - The cost submissions page</h6>
+              <ul>
+                <li>Users need to switch between tabs to view the details.</li>
+                <li>Not enough filtering where user can filter data</li>
+                <li>Insufficient information for some clients.</li>
+                <li>Excessive scrolling without clear indications.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center space-bottom">
+            <div class="col-md-6">
+              <img src="/after1.d26adfea.jpg" alt="after1">
+            </div>
+            <div class="col-md-3">
+              <h6>After - The cost submission page</h6>
+              <ul>
+                <li>Group the pages by the project name.</li>
+                <li>
+                  Add filtering to allow users to quickly retrieve information.
+                </li>
+                <li>
+                  Add a menu settings button where users can customize their
+                  menu.
+                </li>
+                <li>
+                  Include page numbers at the top for easy navigation to the
+                  next page.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="row justify-content-center space">
+            <div class="col-md-6">
+              <img src="/before2.9baa3d62.jpg" alt="before2">
+            </div>
+            <div class="col-md-3">
+              <h6>Before - Vendor submission page</h6>
+              <p>
+                Placing all the data into a small table makes the information
+                cramped and hard to read. Users need to switch to different tabs
+                to change the approval status.
+              </p>
+              <ul>
+                <li>
+                  The users have to scroll horizontally and vertically to see
+                  useful information.
+                </li>
+                <li>
+                  Additionally, category sections are divided into
+                  accordion-style sections. To view information from another
+                  category, users must close one tab and open another.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center space-sm-bottom">
+            <div class="col-md-6">
+              <div class="space-sm-bottom">
+                <img src="/after2-1.88172491.jpg" alt="after2-1">
+              </div>
+              <div class="space-sm-bottom">
+                <img src="/after2-2.0c281159.jpg" alt="after2-2">
+              </div>
+              <div class=" ">
+                <img src="/after2-3.edfebba7.jpg" alt="after-2-3">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h6>After - Vendor submission page</h6>
+              <p>
+                Users will view the vendors submission information after
+                clicking on an individual item from the list. A company needs to
+                approve or dispute this information.
+              </p>
+              <ul>
+                <li>
+                  Allow users to reduce the size of the detail page by using a
+                  scalable bar so that they can click the checkboxes while
+                  viewing the details.
+                </li>
+                <li>
+                  After users select all the item they want to approve or
+                  dispute, they can click the 'Multi-action' button to perform
+                  actions on multiple items at once.
+                </li>
+                <li>
+                  Instead of using a table format to display the data, use a
+                  card-style layout to present the information in a more
+                  flexible manner. I also take into consideration users who will
+                  access the information on small screens; they can still view
+                  all the information by scrolling vertically.
+                </li>
+                <li>
+                  Allow users to manage the menu and choose the information they
+                  want to see.
+                </li>
+                <li>
+                  Organize the categories with tabs so users don't have to
+                  scroll down to access information from different categories.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row prototype space-sm-bottom space-top">
+            <div class="col text-center">
+              <h5>Figma Prototype</h5>
+              <!-- <a
+                href="https://www.figma.com/proto/J8DBrwzyhNGvBKGXT1k9fe/2023-paysheperd-prototype?page-id=401%3A152786&type=design&node-id=401-152787&viewport=266%2C339%2C0.26&t=oJBXGlWeq2kD0eUF-1&scaling=scale-down&starting-point-node-id=407%3A179339&mode=design"
+                class="figma-link"
+                target="_blank"
+                >Checkout Figma Prototype >></a
+              > -->
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <video width="100%" height="100%" muted="" controls="controls">
+                <source src="/payshepherd-figma.c7f9f03a.mov" type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+          <hr>
+          <div class="row justify-content-center space">
+            <div class="col-md-6">
+              <img src="/after3-2.bee7c316.jpg" alt="after3-1">
+            </div>
+            <div class="col-md-3">
+              <h6>Add notification</h6>
+              <p>
+                Previously, there was no clear notification provided to the user
+                after they performed an action. To address this, I introduced a
+                clear notification flow into the site guide.
+              </p>
+              <ul>
+                <li>Include Loading Progress Bar</li>
+                <li>
+                  Include Alert System: After downloading progress is completed,
+                  it triggers an alert confirming that the file has been
+                  uploaded successfully.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <img src="/after3-3.48737598.jpg" alt="after3-2">
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="ending">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+              <h2 class="">Usability Test</h2>
+              <p>
+                Since I was freelancing, I couldn't conduct real usability tests
+                with actual users. However, I conducted in-house usability tests
+                by having colleagues and team members try out the paper
+                prototype and Figma prototype. Additionally, I asked some
+                friends to test it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="learning">
+        <div class="container">
+          <div class="row justify-content-center learning-text-con">
+            <div class="col-md-10 text-center learning-text">
+              <h2>Learnings</h2>
+              <p class=" ">
+                I enjoy tackling new problems and providing solutions. This
+                project was a challenging journey, but it offered an opportunity
+                to explore different industries. As a UX designer, collaborating
+                with professionals from other fields was a valuable and
+                enriching experience.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center learning-img-con">
+            <div class="col-md-12 learning-img">
+              <img src="/ending-img.c6dd8278.jpg" alt="labtop">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ending">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>What Can Be Improved?</h2>
+
+              <p>
+                While freelancing to assist the client in resolving critical
+                site issues, I didn't have the opportunity to assess user
+                engagement. However, if I were working full-time, I would
+                regularly monitor <strong>analytic tools and data</strong> to
+                identify user pain points. I would also conduct
+                <strong>user surveys</strong> to enhance the site. While these
+                are solutions for the current challenges faced by the client, I
+                believe that future improvements will depend on market trends,
+                technological advancements, and user behavior. Therefore, I will
+                continue to adapt to new technology and design trends to improve
+                the site.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="footer">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-8 text-center">
+              <h2>Thank you for reading</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- bg end -->
+      <div class="footer" id="footer2">
+        <div class="container">
+          <div class="row justify-content-right">
+            <div class="offset-md-1 col-md-5">
+              <a href="/index.html"><h4>JLEE</h4></a>
+              <div class="row space-bottom">
+                <div class="col email-address">
+                  <a href="mailto:ejisulee@gmail.com">ejisulee@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="offset-md-2 col-md-4">
+              <h4>Projects</h4>
+              <div class="link-to-project">
+                <a href="/minecraftLegend.html">Minecraft Legends UX/UI</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/wiki.html">CMS-Content Management System</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/avatar.html">Game Product Design</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/microsoft.html">Microsoft Chat System</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/minecraftLostLegend.html">Minecraft Legends: Lost Legend UX</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>// Get the button
+let mybutton = document.getElementById("myBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) mybutton.style.display = "block";
+    else mybutton.style.display = "none";
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+  </body>
+</html>

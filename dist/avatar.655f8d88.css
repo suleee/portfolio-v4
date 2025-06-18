@@ -99,16 +99,20 @@ p {
   margin: 0;
 }
 
-.phone, .idea, .ui, .userflow, .wireframe, .display, .user, .next, .thanks, .impact, .challenge, .research {
+.phone {
+  padding-top: 4.768rem;
+}
+
+.idea, .ui, .userflow, .wireframe, .display, .user, .next, .thanks, .impact, .challenge, .research {
   padding-top: 4.768rem;
   padding-bottom: 4.768rem;
 }
 
-.intro {
-  padding-top: 160px;
+.userflow h1 {
+  text-align: center;
 }
 
-.start {
+.intro, .start {
   padding-bottom: 4.768rem;
 }
 
@@ -235,7 +239,18 @@ hr {
 .b-a-text {
   color: #f2ff00;
   text-align: center;
+  margin-bottom: 4rem;
   font-weight: 600;
+}
+
+@media (width >= 770px) {
+  .b-a-text {
+    margin-bottom: 0;
+  }
+}
+
+.intro-tag {
+  text-align: center;
 }
 
 /*# sourceMappingURL=avatar.655f8d88.css.map */

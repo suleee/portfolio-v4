@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jisu Lee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/favicon.b9f0449c.ico">
+    <link rel="stylesheet" href="/about.044e704e.css">
+    <link rel="stylesheet" href="/microsoft.3d53f009.css">
+    <script src="/about.18dbc454.js" defer=""></script>
+  </head>
+
+  <!-- <script>
+    var p = prompt("Please provide password");
+    if (p != "abc123") {
+      history.back("index.html");
+    }
+  </script> -->
+
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="mt">
+      <div class="menu">
+        <div class="container text-center">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-1">
+              <a href="/index.html"><h1 class="logo">Jlee</h1></a>
+            </div>
+            <div class="d-none d-md-block de- col col-md-3">
+              <div class="row">
+                <div class="col-md-3">
+                  <a href="/index.html" class="works">Works</a>
+                </div>
+                <div class="offset-md-1 col-md-3">
+                  <a href="/about.html" class="works">About</a>
+                </div>
+                <div class="offset-md-1 col-md-3">
+                  <a href="#footer2" class="contact">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box"></div>
+      <div class="herobanner-bg">
+        <div class="herobanner"></div>
+      </div>
+
+      <div class="">
+        <div class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="offset-md-2 col-md-5">
+                <div>
+                  <h6>Overview</h6>
+                  <p class="space-sm-bottom">
+                    Microsoft Teams is a business communication platform created
+                    by Microsoft. It's part of the Microsoft 365 suite of
+                    products. It provides features like chat, video calls, files
+                    storage, and connection with other applications.
+                  </p>
+                  <p>
+                    One day, I discovered that my friend was using Microsoft
+                    Teams, while I use Slack daily and had no prior knowledge of
+                    Microsoft Teams. My friend likes the software but
+                    occasionally gets frustrated while using it. This sparked my
+                    curiosity, and I decided to write a case study to explore
+                    the differences between the two platforms.
+                  </p>
+                </div>
+              </div>
+              <div class="offset-md-1 col-md-4">
+                <div>
+                  <h6>Role</h6>
+                  <p>Research</p>
+                  <p>UX Design</p>
+                </div>
+                <div>
+                  <h6>Tools</h6>
+                  <p>Figma</p>
+                  <p>Draw.io</p>
+                  <p>Excel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg end -->
+      <div class="bg1 problem">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Problems</h2>
+              <p>
+                I began researching Microsoft Teams and discovered that it is a
+                powerful tool often utilized by large companies and those who
+                frequently use Microsoft tools. However, I encountered some
+                issues with the software. Many people mention that some features
+                and options are not intuitive or easy to use. Additionally, the
+                product lacks proper notifications.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- bg end -->
+      <div class="goal">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Goal</h2>
+              <p>
+                Companies often hesitate to update the UI or user-flow unless
+                it's a critical issue because doing so requires the involvement
+                of multiple teams and can be costly. Additionally, it can be
+                more complex than it initially seems. As a UX designer, it's
+                essential not only to identify problems but also to gain a
+                better understanding of how the UI code is constructed. In many
+                cases, UI components use internal or enterprise libraries. While
+                using libraries expedites product development, it may have
+                downsides - UI lacks intuitiveness, making adjustments
+                challenging. Therefore, it's crucial to collaborate with
+                engineers, understand how UI components are built, and assess
+                the feasibility of cost versus gain, of implementing new
+                features.
+              </p>
+              <p>
+                In this case study, I will focus on minor improvements that can
+                reduce user confusion and enhance their experience when using
+                Microsoft Teams product.
+              </p>
+              <!-- <p>
+                <strong>The primary goal</strong> is to identify user pain
+                points and provide solutions for the information architecture.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="container mid-flow-img">
+        <div class="row justify-content-center">
+          <div class="col">
+            <img src="images/mt/mt-andriod-flow.png" alt="android" />
+          </div>
+        </div>
+      </div> -->
+      <div class="resaerch-index">
+        <div class="problem1">
+          <div class="container">
+            <div class="row">
+              <div class="offset-md-2 col-md-8">
+                <h2>Research index</h2>
+                <ul class="space-sm-bottom">
+                  <li class="space-sm-bottom">
+                    <h5>Product research</h5>
+                    <ul class="">
+                      <li>
+                        What is the company selling? Understanding the core
+                        offerings and products/services of the company.
+                      </li>
+                      <li>
+                        Who is their target audience? Identifying the specific
+                        demographic or customer groups the company aims to
+                        reach.
+                      </li>
+                      <li>
+                        Platform usage: Check which platforms the users mainly
+                        use for the product.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="space-sm-bottom">
+                    <h5>Detecting users' pain points</h5>
+                    <ul class="">
+                      <li>Interview people who use the product daily.</li>
+                      <li>
+                        Find real comments on the internet to identify crucial
+                        pain points for users.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="space-sm-bottom">
+                    <h5>Conduct a comparative analysis</h5>
+                    <ul class="">
+                      <li>
+                        Research what other companies do and create a SWOT
+                        analysis.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="space-sm-bottom">
+                    <h5>Design research</h5>
+                    <ul class="">
+                      <li>
+                        Downloaded 7 different chat apps and 5 different types
+                        of chat platforms for the purpose of studying their user
+                        interfaces.
+                      </li>
+                      <li>
+                        Check out Android templates and restrictions (for
+                        example,
+                        <a href="https://m3.material.io/get-started">material</a>, Canva, Uizard)
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <h5>Test the product</h5>
+                    <ul class="">
+                      <li>
+                        Use the product and try to understand the pain points.
+                        (Currently, my company works closely with Microsoft, so
+                        I have access to their applications.)
+                      </li>
+                      <li>Use the friend's account to test it.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="research">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Product research</h2>
+            </div>
+            <div class="offset-md-2 col-md-8">
+              <div class="row">
+                <div class="col-2 col-md-2 text-center million-con zoom-in-out-box">
+                  <h4>Over</h4>
+                  <h1>1M</h1>
+                  <!-- <img> -->
+                </div>
+                <div class="col-8 offset-md-1 col-md-8">
+                  <p>
+                    Microsoft Teams has become a crucial tool for remote work,
+                    and here are some statistics that highlight its usage and
+                    impact:
+                  </p>
+                  <ul>
+                    <li>
+                      <strong>Over 1 million companies</strong> are using
+                      Microsoft Teams.
+                    </li>
+                    <li>
+                      Microsoft Teams' video calls have increased by 1000% since
+                      the pandemic.
+                    </li>
+                  </ul>
+                  <a href="https://www.demandsage.com/microsoft-teams-statistics/#:~:text=Over%201%20million%20companies%20are%20using%20Microsoft%20Teams" class="source-link">Microsoft Teams Statistics data source >></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <p class="space-bottom space-top">
+                Microsoft Teams is used the most in the Information Technology
+                industry.
+                <strong>3540 Information Technology Companies</strong> are using
+                Microsoft Teams.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <img src="/mt-industry-chart.6253911b.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="user-usage">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2 class=" ">Users statistics</h2>
+              <p class="space-xs-bottom">
+                Analyzed Microsoft Teams statistics (Users, Trends & Data) to
+                understand who the main target audience is and how the product
+                has grown in the market.
+              </p>
+              <p class="space-sm-bottom">
+                Also, you need to determine what platform most users are using
+                (PC, iOS, Android) to access the product.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h5>User download count</h5>
+              <p class="space-sm-bottom">
+                <strong>Over 100 million</strong> Microsoft Teams apps were
+                downloaded on <strong>Android</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center space-bottom">
+            <div class="col-md-6">
+              <img src="/mt-platform-chart.200d6c27.jpg" alt="">
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <h5>Users age</h5>
+              <ul>
+                <li class=" ">60% of users are above 35 years old.</li>
+                <li>
+                  <strong>72% of men and 24% of women </strong>are users of
+                  Microsoft Teams.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <img src="/mt-age-chart.7b286225.jpg" alt="age chart">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pain-point">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2 class="">Detecting User Pain Points</h2>
+              <p class="space-sm-bottom">
+                In the game industry, predicting user behavior can be
+                challenging, even after conducting numerous playtests. Internet
+                user reviews often play a vital role in product improvement,
+                providing genuine insights from daily users. After launching
+                games, I read online comments to understand user's pain points
+                and gather valuable feedback
+              </p>
+              <div class="row">
+                <div class="col-3 text-center">
+                  <h2 class="icon-pain">🤕</h2>
+                </div>
+                <div class="col-9">
+                  <p>
+                    In this case study, I use my method to examine real user
+                    feedback online. Many users have mentioned that the software
+                    is difficult to learn, some features lack intuitiveness,
+                    notifications are lacking, and there are bugs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swot">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2 class="">Competitors research</h2>
+              <p class="space-sm-bottom">
+                Competitor Research: Microsoft Teams primarily competes with
+                Slack, but I've expanded the comparison to include other major
+                companies such as Google, Zoom, Discord, etc., to assess their
+                target audience, goals, strengths, and unique qualities.
+              </p>
+
+              <div class="space-sm-bottom">
+                <a href="https://docs.google.com/spreadsheets/d/1HDOlgPEKf7PmONWZHVlB0vfzSrBbsV4XlD2bk_JGpWU/edit?usp=sharing" target="_blank">
+                  Check out excel SWOT >>
+                </a>
+              </div>
+            </div>
+            <div class="offset-md-2 col-md-8">
+              <table class="table">
+                <thead class="thead-color">
+                  <tr>
+                    <th scope="col">Company</th>
+                    <th scope="col">Target</th>
+                    <th scope="col">Strength</th>
+                    <th scope="col">Weaknesses</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">MS Teams</th>
+                    <td>
+                      <ul>
+                        <li>Large size of business</li>
+                        <li>Hub for team - work in office 365</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Seamless Integration with Microsoft Products</li>
+                        <li>Efficient File Editing</li>
+                        <li>Synchronization with SharePoint or OneDrive</li>
+                        <li>Robust Video Calls</li>
+                        <li>Customization Options</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Complex Features and Usability Challenges</li>
+                        <li>Performance Issues</li>
+                        <li>Frequent Updates and Changes</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Slack</th>
+                    <td>
+                      <ul>
+                        <li>Small and medium size of business</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Flexibility and Customization</li>
+                        <li>
+                          Use apps and bots to enhance workflow: Google Drive,
+                          Trello, Zoom, or Slackbot
+                        </li>
+                        <li>User-friendly interface</li>
+                        <li>Robust search function</li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>Cost and Scalability</li>
+                        <li>
+                          Issues with security and compliance: It does not offer
+                          end-to-end encryption or data sovereignty.
+                        </li>
+                        <li>Messages can become disorganized quickly.</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Google Chat</th>
+                    <td>
+                      <ul>
+                        <li>
+                          Initially designed for teams and business
+                          environments.
+                        </li>
+                        <li>
+                          It has since been made available for general
+                          consumers.
+                        </li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>
+                          As part of our Google Workspace, it helps integrate
+                          communication within the entire network of our
+                          employees with such ease.
+                        </li>
+                      </ul>
+                    </td>
+                    <td>
+                      <ul>
+                        <li>
+                          Sometimes my messages don't get delivered. It keeps
+                          saying "message failed".
+                        </li>
+                        <li>
+                          Limited support for third-party integrations and bots.
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="col">Discord</th>
+                    <td scope="col">
+                      <ul>
+                        <li>Discord is ideal for online communities</li>
+                        <li>Gaming companies</li>
+                      </ul>
+                    </td>
+                    <td scope="col">
+                      <ul>
+                        <li>Video calls - share play screen without lagging</li>
+                        <!-- <li>The platform for gammer:</li> -->
+                        <li>Discord calls its integrations “bots.”</li>
+                      </ul>
+                    </td>
+                    <td scope="col">
+                      <ul>
+                        <li>Specialized for gamers</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swot">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2 class="">Design research</h2>
+              <p class="space-sm-bottom">
+                Since most users use Android, I'll begin with suggestions for
+                Android first.
+              </p>
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>
+                      I am an iPhone user, so I decided to study Material Design
+                      a bit.
+                      <ul>
+                        <li>
+                          I downloaded one of the popular
+                          <a href="https://www.figma.com/community/file/1035203688168086460">Material Design kits</a>
+                          from the Figma community.
+                        </li>
+                        <li>
+                          I read the
+                          <a href="https://m3.material.io/get-started">Material Design Guide</a>.
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      To assess how the interfaces are interactive, I borrowed
+                      my partner's phone and opened various types of apps.
+                    </li>
+                    <li>
+                      I downloaded seven different chat apps for the purpose of
+                      studying their user interfaces.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <img src="/material-design.5947563b.png" alt="material-design">
+                <a href="https://www.figma.com/community/file/1035203688168086460">
+                  Image Source: Material Design kits from Figma community.
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg1 testing">
+        <div class="container">
+          <div class="row">
+            <div class="offset-md-2 col-md-8">
+              <h2>Product test</h2>
+              <p>
+                At my current company, we work closely with Microsoft, and some
+                parts of our work involve using Microsoft applications. So, I
+                downloaded the web application to conduct tests.
+              </p>
+              <p>
+                However, my version lacked real data, so I borrowed my friend's
+                computer to test specific aspects with real communications.
+              </p>
+              <p>
+                After collecting this information, I dedicated time to conduct a
+                comprehensive product test and understand the pain points
+                mentioned by users.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solution">
+        <div class="container">
+          <div class="row space-bottom">
+            <div class="offset-md-2 col-md-8">
+              <h2>Solutions</h2>
+              <p>
+                In this Case Study, I won't cover everything I found, so I'll
+                focus on one scenario and provide a solution for it. I've chosen
+                to address a common concern that many people have raised:
+                notifications. I've identified areas where notifications are
+                needed upon completing actions.
+              </p>
+              <p>
+                Additionally, some users complained about excessive updates, so
+                I brainstormed ways to make minor changes with a significant
+                impact.
+              </p>
+              <p>
+                I decided to re-evaluate the process of creating new team
+                channels, as this is where teams communicate and share messages,
+                tools, and files.
+              </p>
+              <p>
+                Since the majority of users use Android and desktop, I conducted
+                testing on these two platforms for the redesign
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="offset-md-2 col-10">
+              <h5 class="space-sm-bottom">Create new team flow - Android</h5>
+            </div>
+            <div class="offset-md-2 col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <h6>Problems</h6>
+                  <ul>
+                    <li>
+                      The loading screen appears randomly and disappears too
+                      quickly.
+                    </li>
+                    <li>
+                      The buttons on the 'Add Members' screen lack clarity.
+                    </li>
+                    <li>Notifications are not functioning.</li>
+                    <li>
+                      No alert or notification after a user creates a new team.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h6>Solutions</h6>
+                  <ul>
+                    <li>
+                      Ensure the loading screen remains until the transition to
+                      the next screen is complete.
+                    </li>
+                    <li>Update the buttons on the 'Add Members' screen.</li>
+                    <li>
+                      Add a notification or interaction after a team is created.
+                    </li>
+                    <li>
+                      After a user creates a team, display the newest team at
+                      the top of the list, making it easier for users to find
+                      new teams (or open the General Channel of the newest
+                      team).
+                    </li>
+                    <li>
+                      Provide information about the general channel while people
+                      are creating a team.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row space-top space-bottom">
+            <div>
+              <img src="/mt-andriod-flow.90a0b41b.png" alt="android user flow">
+            </div>
+          </div>
+          <hr>
+          <div class="row space-top">
+            <div class="offset-md-2 col-10">
+              <h5 class="space-sm-bottom">Create new team flow - Desktop</h5>
+            </div>
+            <div class="offset-md-2 col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <h6>Problems</h6>
+                  <ul>
+                    <li>There are too many unnecessary steps.</li>
+                    <li>The user interface (UI) lacks clarity.</li>
+                    <li>
+                      There are no notifications after actions are completed.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h6>Solutions</h6>
+                  <ul>
+                    <li>
+                      Separate the buttons for 'Join' and 'Create New.' You can
+                      do this either through a dropdown button or by creating
+                      two separate buttons.
+                    </li>
+                    <li>
+                      Provide a clear UI. Ensure that users don't have to guess
+                      what it is.
+                    </li>
+                    <li>
+                      Provide clear notifications during ongoing and completed
+                      processes.
+                    </li>
+                    <li>
+                      Ensure that users don't have to guess what has happened.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row space-top">
+            <div>
+              <img src="/mt-desktop-flow.e6ff178a.png" alt="desktop user flow">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container solved">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Problem solved - layout</h2>
+            <p>
+              I aimed to create a simple and clean user interface, with a
+              primary focus on ensuring the transition process is intuitive and
+              delivering a user-friendly experience.
+            </p>
+            <p>
+              Because Android is the platform that most users use, I chose to
+              modify the Android layout first.
+            </p>
+          </div>
+        </div>
+        <div class="row space-top space-bottom">
+          <div class="offset-md-2 col-md-5">
+            <img src="/before-after1.9f890d80.png" alt="before-after1">
+          </div>
+          <div class="col-md-3">
+            <div class="space-bottom">
+              <h6>Add information</h6>
+              <p>
+                Include information about the general channel so that users can
+                easily identify it on the team list screen. I noticed this
+                information is displayed on the web version but not on the
+                phone.
+              </p>
+            </div>
+            <div>
+              <h6>Button consistency</h6>
+              <p>
+                In the next page, I will replace the icons with text to make it
+                clearer. Therefore, these icons need to be updated as well.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row space-bottom">
+          <div class="col-5 offset-md-2 col-md-3">
+            <img src="/before-loading.54d151d5.png" alt="before-after1">
+          </div>
+          <div class="col-7 offset-md-1 col-md-4">
+            <div>
+              <h6>Bug: Loading Screen</h6>
+              <p>
+                The loading screen doesn't stay visible long enough; it
+                disappears after just one or two seconds, sometimes not showing
+                at all. It should remain visible until the next screen fully
+                transitions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row space-bottom">
+          <div class="offset-md-2 col-md-8">
+            <h6>Update Icons for Clarity</h6>
+            <ul class="space-sm-bottom">
+              <li class="space-sm-bottom">
+                <strong>X-Button:</strong> When I first saw the 'X' icon, my
+                initial impression was that it would prevent me from creating a
+                team and discard the process, but it actually generates the
+                team. The icon lacks clarity, so I recommend redesigning it for
+                better user understanding.
+              </li>
+              <li class="space-sm-bottom">
+                <strong>Replace X Button with Back Button:</strong>
+                Considering that the app is used for business purposes,
+                providing users with a second chance to edit or review the
+                team's name before creation might be beneficial. However, if the
+                design intent is to prevent users from navigating to the
+                previous screen, it may be better to remove the button
+                altogether.
+              </li>
+              <li>
+                <strong>Icon vs Text:</strong> The checkmark icon is not
+                entirely clear; it can be interpreted as adding a friend. Since
+                users can add as many members as they want, replacing the icon
+                with text would enhance clarity. In my observation of the seven
+                different chat apps I downloaded, they all use text for this
+                purpose.
+              </li>
+            </ul>
+          </div>
+
+          <div class="offset-md-2 col-md-8">
+            <img src="/before-after-update-icon.80f3aaee.png" alt="before-after-update-icon">
+          </div>
+        </div>
+
+        <div class="row space-bottom">
+          <div class="offset-md-2 col-md-5">
+            <img src="/before-after-notification.a4b865a2.png" alt="before-after-notification">
+          </div>
+          <div class="col-md-3">
+            <h6>Notification</h6>
+            <ul class="">
+              <li>
+                After creating a team, it's important to inform the user that
+                the process is complete, rather than simply returning them to
+                the main screen. There are two possible solutions to address
+                this issue:
+              </li>
+              <ul>
+                <li>
+                  <span> Case 1:</span> Automatically open the general channel
+                  that the users have just created, allowing them to begin
+                  interacting immediately.
+                </li>
+                <li>
+                  <span> Case 2:</span> Provide some form of visual interaction
+                  or notification, such as displaying the latest team at the top
+                  of the list, making it easier for users to find and access
+                  their newly created team.
+                </li>
+              </ul>
+              <li>
+                If the order of the list functions differently from other chat
+                apps, it's advisable to clarify how the list is organized to
+                ensure user understanding. (ex. List order: A-Z)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="learning">
+        <div class="container">
+          <div class="row justify-content-center learning-text-con">
+            <div class="col-md-10 text-center learning-text">
+              <h2>Learnings</h2>
+              <p class="">
+                It was enjoyable to research the product that I use daily and
+                the competitor's apps. Even though the concept is the same, the
+                methods vary significantly, and some are quite unique. In the
+                future, I would like to run user tests to gather real feedback
+                from users.
+              </p>
+              <p class="">
+                Additionally, it was fun to invest time in learning a bit about
+                Material design and apps.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="ending text-center">
+              <h2 class="zoom-in-out-box2">❤️</h2>
+              <h2>Thank you for your time</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bg end -->
+      <div class="footer" id="footer2">
+        <div class="container">
+          <div class="row justify-content-right">
+            <div class="offset-md-1 col-md-5">
+              <a href="/index.html"><h4>JLEE</h4></a>
+              <div class="row space-bottom">
+                <div class="col email-address">
+                  <a href="mailto:ejisulee@gmail.com">ejisulee@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <div class="offset-md-2 col-md-4">
+              <h4>Projects</h4>
+              <div class="link-to-project">
+                <a href="/minecraftLegend.html">Minecraft Legends UX/UI</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/payshepherd.html">B2B platform UX/UI</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/wiki.html">CMS-Content Management System</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/avatar.html">Game Product Design</a>
+              </div>
+              <div class="link-to-project">
+                <a href="/minecraftLostLegend.html">Minecraft Legends: Lost Legend UX</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>// Get the button
+let mybutton = document.getElementById("myBtn");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) mybutton.style.display = "block";
+    else mybutton.style.display = "none";
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+  </body>
+</html>
