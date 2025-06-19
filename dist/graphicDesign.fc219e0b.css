@@ -1,3 +1,7 @@
+h1, h3, h4, h5, h6, p, ol {
+  color: #fff;
+}
+
 @media (width >= 0) {
   .herobanner {
     max-height: 250px;
@@ -40,8 +44,16 @@
   }
 }
 
-h1, h3, h4, h5, h6, p, ol {
-  color: #fff;
+.herobanner {
+  text-align: center;
+  background-image: url("gd-herobanner.2da0fc79.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
 }
 
 .bg1, .bg4, .graphicdesign {
@@ -144,18 +156,6 @@ h1, h3, h4, h5, h6, p, ol {
 .bg3 p {
   color: #000;
   text-align: left;
-}
-
-.herobanner {
-  text-align: center;
-  background-image: url("gd-herobanner.2da0fc79.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40rem;
 }
 
 .menu {

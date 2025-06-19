@@ -1,5 +1,15 @@
 @import "library";
 
+h1,
+h3,
+h4,
+h5,
+h6,
+p,
+ol {
+  color: white;
+}
+
 @media (min-width: 0px) {
   .herobanner {
     max-height: 250px; /* Adjust the height for larger screens */
@@ -43,14 +53,17 @@
   }
 }
 
-h1,
-h3,
-h4,
-h5,
-h6,
-p,
-ol {
-  color: white;
+.herobanner {
+    background-image: url("../images/graphic/gd-herobanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40rem; /* Adjust the initial height as needed */
+    text-align: center;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bg1, .bg4, .graphicdesign {
@@ -155,18 +168,6 @@ ol {
     text-align: left;
 }
 
-.herobanner {
-    background-image: url("../images/graphic/gd-herobanner.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 40rem; /* Adjust the initial height as needed */
-    text-align: center;
-    // display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .menu {
   height: 52px; 
