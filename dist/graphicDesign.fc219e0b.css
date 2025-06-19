@@ -1,0 +1,174 @@
+@media (width >= 0) {
+  .herobanner {
+    max-height: 250px;
+  }
+}
+
+@media (width >= 350px) {
+  .herobanner {
+    max-height: 300px;
+  }
+}
+
+@media (width >= 500px) {
+  .herobanner {
+    max-height: 400px;
+  }
+}
+
+@media (width >= 768px) {
+  .herobanner {
+    max-height: 550px;
+  }
+}
+
+@media (width >= 900px) {
+  .herobanner {
+    max-height: 700px;
+  }
+}
+
+@media (width >= 1200px) {
+  .herobanner {
+    max-height: 1200px;
+  }
+}
+
+@media (width >= 1400px) {
+  .herobanner {
+    margin: 0 auto;
+  }
+}
+
+h1, h3, h4, h5, h6, p, ol {
+  color: #fff;
+}
+
+.bg1, .bg3 {
+  background-color: #000;
+}
+
+.space-top {
+  padding-top: 4.768rem;
+}
+
+.space-bottom {
+  padding-bottom: 4.768rem;
+}
+
+.bg2 {
+  text-align: center;
+  background-image: url("gd-img-bg.74d3d1e0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 72rem;
+  padding: 6rem 0;
+}
+
+@media (width >= 370px) {
+  .bg2 {
+    height: 90rem;
+  }
+}
+
+@media (width >= 575px) {
+  .bg2 {
+    height: 40rem;
+  }
+}
+
+@media (width >= 1200px) {
+  .bg2 {
+    height: 50rem;
+  }
+
+  .disney {
+    padding-top: 4.7rem;
+  }
+}
+
+.bg2 p {
+  color: #000;
+  text-align: left;
+}
+
+.herobanner {
+  text-align: center;
+  background-image: url("gd-herobanner.194f6089.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+}
+
+.menu {
+  width: 100%;
+  height: 52px;
+  position: absolute;
+}
+
+.menu h1 {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  padding-top: 16px;
+  font-size: 24px;
+}
+
+.menu .works {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.menu .works:hover {
+  color: #c23b27;
+}
+
+.menu .contact {
+  color: #fff;
+  background-color: #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.menu .contact:hover {
+  color: #fff;
+  background-color: #c23b27;
+}
+
+.footer {
+  background-color: #000;
+  border-top: 1px solid #2e2e2e;
+  padding-top: 4.768rem;
+  padding-bottom: 160px;
+}
+
+.footer img {
+  border-radius: 4px;
+  max-width: 28px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: #c23b27;
+}
+
+.footer .email-address {
+  margin-bottom: 36px;
+}
+
+.footer .link-to-project {
+  color: #fff;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=graphicDesign.fc219e0b.css.map */
