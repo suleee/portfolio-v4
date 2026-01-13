@@ -69,11 +69,15 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li {
   }
 }
 
-.bg1 {
+.bg0 {
   background-color: #0e0d13;
   background-image: url("bg-pattern.9224408d.jpg");
   background-position: center;
   background-repeat: repeat;
+}
+
+.bg1 {
+  background-color: #0e0d13;
 }
 
 .bg2 {
@@ -87,6 +91,10 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li {
 
 .bg3 {
   background-color: #07070980;
+}
+
+.bg4 {
+  background-color: #13131a;
 }
 
 hr {
@@ -131,8 +139,8 @@ hr {
 }
 
 .research {
-  margin-top: 4.768rem;
-  margin-bottom: 4.768rem;
+  padding-top: 4.768rem;
+  padding-bottom: 4.768rem;
 }
 
 .summary p, .summary h5 {

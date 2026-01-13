@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jisu Lee</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link id="bootstrap-css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/favicon.b9f0449c.ico">
     <link rel="stylesheet" href="/about.044e704e.css">
     <link rel="stylesheet" href="/wiki.6d2b80e8.css">
@@ -52,41 +52,46 @@
       <div class="">
         <div class="intro">
           <div class="container">
-            <div class="row">
-              <div class="offset-md-1 col-md-6">
-                <h6>Overview</h6>
-                <p class="space-sm-bottom">
-                  Navigator Games, a studio based in Vancouver, B.C., primarily
-                  focuses on the "Iron Maiden Legacy of the Beast" game. They
-                  often receive requests for a page containing information about
-                  in-game items. Achieving a high rating (4.7/5) on Google Play
-                  and the Apple App Store makes having such information readily
-                  available crucial.
-                </p>
-                <p>
-                  My task was to create a solution that would be easy for both
-                  game players and content moderators to use. Since the company
-                  already had a Newsfeed on WordPress, I decided to leverage
-                  this CMS for my solution. This approach reduces the IT team's
-                  maintenance workload and minimizes the learning curve for
-                  content moderators. Most importantly, it ensures that players
-                  receive the requested feature efficiently.
-                </p>
-              </div>
-              <div class="offset-md-1 col-md-3">
-                <div>
-                  <h6>Role</h6>
-                  <p>
-                    Research, UI/UX Design, Information Architecture, Front-end
-                    Development
-                  </p>
-                </div>
-                <div>
-                  <h6>Tools</h6>
-                  <p>
-                    Design: Photoshop, Invision Development: WordPress (PHP,
-                    Javascript, HTML, CSS, AWS S3, etc.)
-                  </p>
+            <div class="row justify-content-center">
+              <div class="col-md-10">
+                <div class="row">
+                  <div class="col-md-8">
+                    <h6>Overview</h6>
+                    <p class="space-sm-bottom">
+                      Navigator Games, a studio based in Vancouver, B.C.,
+                      primarily focuses on the "Iron Maiden Legacy of the Beast"
+                      game. They often receive requests for a page containing
+                      information about in-game items. Achieving a high rating
+                      (4.7/5) on Google Play and the Apple App Store makes
+                      having such information readily available crucial.
+                    </p>
+                    <p>
+                      My task was to create a solution that would be easy for
+                      both game players and content moderators to use. Since the
+                      company already had a Newsfeed on WordPress, I decided to
+                      leverage this CMS for my solution. This approach reduces
+                      the IT team's maintenance workload and minimizes the
+                      learning curve for content moderators. Most importantly,
+                      it ensures that players receive the requested feature
+                      efficiently.
+                    </p>
+                  </div>
+                  <div class="offset-md-1 col-md-3">
+                    <div>
+                      <h6>Role</h6>
+                      <p>
+                        Research, UI/UX Design, Information Architecture,
+                        Front-end Development
+                      </p>
+                    </div>
+                    <div>
+                      <h6>Tools</h6>
+                      <p>
+                        Design: Photoshop, Invision Development: WordPress (PHP,
+                        Javascript, HTML, CSS, AWS S3, etc.)
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,8 +101,8 @@
       <!-- bg end -->
       <div class="bg1 challenge">
         <div class="container">
-          <div class="row">
-            <div class="offset-md-1 col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
               <h2>Goal & Challenge</h2>
               <div>
                 The main goals of the Compendium Initiative are as follows:
@@ -111,76 +116,59 @@
                     moderators.
                   </li>
                   <li>
-                    The biggest challenge was accommodating two distinct user
-                groups: visitors (players) and content moderators (game
-                designers). This is because the way information is loaded and
-                accessed differs significantly for these two groups.
-                    </li>
+                    The most important part is that the wiki page opens quickly
+                    and smoothly within the game. This means it needs to avoid
+                    anything that could slow it down, like too many large
+                    images, complex graphics, or unnecessary animations.
+                    Prioritize text and essential information to keep the
+                    loading time minimal for players
+                  </li>
                 </ul>
               </div>
-             
             </div>
           </div>
         </div>
       </div>
 
+      <div><img src="/img1.8f4dfce3.jpg" alt="img1"></div>
+
       <div class="solution">
         <div class="container">
-          <div class="row">
-            <div class="offset-md-1 col-md-10">
-              <h2>Proposal solutions</h2>
-            </div>
-            <div class="offset-md-1 col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
               <div class="row">
-                <div class="col-md-6 panel-bg">
-                  <h5>For players</h5>
-                  <ul>
-                    <li>
-                      High Performance 
-                    </li>
-                    <li>
-                      Limited Use of Images 
-                    </li>
-                    <li>
-                      Fast Page Load Times 
-                    </li>
-                    <li>
-                      Clarity and Readability 
-                    </li>
-                    <li>
-                       Accessible Depth 
-                    </li>
-                    <li>
-                      Accessibility 
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-6 panel-bg">
-                  <h5>For in-house maintenance users</h5>
-                  <ul>
-                    <li> 
-                      Automate the system 
-                    </li>
-                    <li> 
-                      Easy maintenance 
-                    </li>
-                    <li>
-                      Organized Content 
-                    </li>
-                  </ul>
+                <h2>Proposal solutions</h2>
+                <div class="row">
+                  <div class="col-md-6 panel-bg">
+                    <h5>For players</h5>
+                    <ul>
+                      <li>High Performance</li>
+                      <li>Limited Use of Images</li>
+                      <li>Fast Page Load Times</li>
+                      <li>Clarity and Readability</li>
+                      <li>Accessible Depth</li>
+                      <li>Accessibility</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 panel-bg">
+                    <h5>For in-house maintenance users</h5>
+                    <ul>
+                      <li>Automate the system</li>
+                      <li>Easy maintenance</li>
+                      <li>Organized Content</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div><img src="/img1.8f4dfce3.jpg" alt="img1"></div>
-      <!-- bg end -->
-      <!--  -->
+
       <div class="research">
         <div class="container">
-          <div class="row">
-            <div class="offset-md-1 col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
               <h2 class="">Design Research</h2>
               <p>
                 I researched competitors' games to identify trending layouts and
@@ -193,8 +181,8 @@
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="offset-md-1 col-md-10">
+          <div class="row justify-content-center">
+            <div class="col-md-10">
               <div class="row">
                 <div class="col-6">
                   <img src="/research.3e7ad78b.png" alt="research deck">
@@ -211,8 +199,8 @@
       </div>
       <!--  -->
       <div class="container wireframe">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <h2 class="">Wireframe</h2>
             <p class="space-bottom">
               Once I had a solid design direction, I began creating low and
@@ -222,8 +210,8 @@
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <div class="row">
               <div class="col-4 col-md-2">
                 <img src="/mobile-first.0776ff88.png">
@@ -247,9 +235,9 @@
       </div>
 
       <div class="container ui">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
-            <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class=" ">
               <h2 class="">User interface</h2>
               <p class="space-bottom">
                 The game has its own color scheme, limiting my color options. I
@@ -260,14 +248,14 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="offset-md-1 col-md-10">
+          <div class="col-md-10">
             <img src="/color.11fdc913.png" alt="color">
           </div>
         </div>
       </div>
       <div class="container userflow">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <h2 class="">Flow Chart</h2>
             <p class="space-bottom">
               I linked all pages in Invision so that the team could test its
@@ -277,14 +265,14 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="offset-md-1 col-md-10">
-            <img src="/userflow.1f5d0b2f.png" alt="useflow">
+          <div class="col-md-9">
+            <img src="/wiki-ia.c8bf767e.png" alt="useflow">
           </div>
         </div>
       </div>
       <div class="container final">
-        <div class="row">
-          <div class="offset-md-1 col-md-8">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <h2 class="">Final work</h2>
             <p class="space-bottom">
               The final work was delivered in collaboration with game designers
@@ -294,76 +282,40 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="offset-md-1 col-md-8">
+          <div class="col-md-10">
             <img src="/final.a5f2b59c.png" alt="final">
           </div>
         </div>
       </div>
-      <hr>
+
       <div class="container wp1">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
-            <div class="row">
-              <div class="col-md-6">
-                <h2 class="">Building in WordPress</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row space-bottom">
+              <div class="">
+                <h2 class="">For In-house User</h2>
                 <p>
-                  The company use WordPress site for Newsfeed. This technology
-                  was chosen so it is easy to build and maintain compared with
-                  plain HTML. However, implementors did not consider site
-                  performance nor maintainers' technical abilities.
-                </p>
-                <p>
-                  To mitigate the maintenance problems, I decide to build custom
-                  the blog type, so it is easy to learn and adapt for future
-                  users and it would not interface with existing code base.
-                  Also, I knew that if I use the PHP, HTML, CSS and limit
-                  solution with 1-2 plugins, it would have least impact on
-                  performance for web and app users.
-                </p>
-                <p>
-                  I used a plugin to enhance search functionality and content
-                  linking. However, to ensure a seamless user experience, I
-                  needed to write custom JavaScript and CSS code. I also
-                  utilized HTML <em>data</em> attributes for pre-filtering and
-                  'secret' linking. This approach allowed the most relevant
-                  content to be pre-loaded for the user. While this part of the
-                  solution demanded the most code, I was extremely pleased with
-                  how elegantly I was able to implement it.
+                  The game design team will maintain the site, so it was
+                  designed to be intuitive and easy to use. When designers
+                  uploads an Excel sheet with the required information, the
+                  system automatically creates or updates the corresponding
+                  pages in WordPress. This reduces manual work and helps keep
+                  the content consistent.
                 </p>
               </div>
-              <div class="col-md-6">
-                <img src="/wordpress.47a60f9e.jpg" alt="wordpress">
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-md-11">
+                <img src="/wiki-inhouse.047eef51.png" alt="inhouse-user">
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="container wp1">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
-            <div class="row">
-              <div class="col-md-6">
-                <h2 class="">CSV Uploader</h2>
-                <p>
-                  This solution proved to be highly effective, saving a
-                  significant amount of time, streamlining the process, and
-                  reducing the potential for errors when compared to the manual
-                  uploading and editing of individual pages. Content moderators
-                  were able to update content rapidly, ensuring that new
-                  information for players became accessible within hours rather
-                  than weeks.
-                </p>
-              </div>
-              <div class="offset-md-1 col-md-5">
-                <img src="/csv.37753ea8.jpg" alt="wordpress">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container wp1">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <div class="row">
               <div class="col-md-6">
                 <h2 class="">Performance Testing</h2>
@@ -386,11 +338,14 @@
           </div>
         </div>
       </div>
-    
+
       <div class="container ending">
-        <div class="row">
-          <div class="offset-md-1 col-md-10">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
             <div class="row">
+              <div class="col">
+                <img src="/googlea.75ce54c6.png" alt="google">
+              </div>
               <div class="col-md-6">
                 <h2 class="">Optimization & maintenance work</h2>
                 <p>
@@ -398,9 +353,6 @@
                   <a href="https://marketingplatform.google.com/about/analytics/" class="link">Google Analytics</a>. Our team did a monthly meetings to discuss results and what
                   can be improved and updated.
                 </p>
-              </div>
-              <div class="col">
-                <img src="/googlea.75ce54c6.png" alt="google">
               </div>
             </div>
           </div>
@@ -440,10 +392,6 @@
               </div>
               <div class="link-to-project">
                 <a href="/avatar.html">Game Product Design</a>
-              </div>
-
-              <div class="link-to-project">
-                <a href="/microsoft.html">Microsoft Chat System</a>
               </div>
 
               <div class="link-to-project">

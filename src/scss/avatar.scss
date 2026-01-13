@@ -3,7 +3,7 @@
 @media (min-width: 0px) {
   .herobanner {
     max-height: 250px; /* Adjust the height for larger screens */
-  } 
+  }
 }
 
 @media (min-width: 350px) {
@@ -47,6 +47,10 @@
   padding-bottom: $space-ending;
 }
 
+li {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -59,7 +63,7 @@ h6 {
 }
 
 .menu {
-  height: 52px; 
+  height: 52px;
   position: absolute;
   width: 100%;
   h1 {
@@ -67,7 +71,6 @@ h6 {
     font-size: 24px;
     text-shadow: 1px 1px 2px black;
     padding-top: 16px;
-    
   }
   .works {
     color: white;
@@ -111,7 +114,7 @@ p {
   margin: 0;
 }
 
-.phone{
+.phone {
   padding-top: $space-content-top;
 }
 
@@ -130,12 +133,16 @@ p {
   padding-bottom: $space-content-bottom;
 }
 
-.userflow h1{
+.research hr {
+  margin: 2rem 0;
+}
+
+.userflow h1 {
   text-align: center;
 }
 
 .intro {
-  padding-bottom:  $space-content-bottom;
+  padding-bottom: $space-content-bottom;
 }
 
 .start {
@@ -194,6 +201,10 @@ p {
   background-repeat: repeat-x;
   background-size: cover;
   height: 6rem;
+}
+
+.second-bg {
+  background-color: #1c1c2c;
 }
 
 .ui-con {
@@ -264,7 +275,7 @@ hr {
   }
 }
 
-.b-a-text{
+.b-a-text {
   color: #f2ff00;
   font-weight: 600;
   text-align: center;
@@ -272,11 +283,11 @@ hr {
 }
 
 @media (min-width: 770px) {
-.b-a-text{ 
-  margin-bottom: 0rem;
-}
+  .b-a-text {
+    margin-bottom: 0rem;
+  }
 }
 
-.intro-tag{
+.intro-tag {
   text-align: center;
 }

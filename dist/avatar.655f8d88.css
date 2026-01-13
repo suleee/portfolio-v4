@@ -44,6 +44,10 @@
   padding-bottom: 160px;
 }
 
+li {
+  color: #fff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-family: Marcellus SC, serif;
@@ -108,6 +112,10 @@ p {
   padding-bottom: 4.768rem;
 }
 
+.research hr {
+  margin: 2rem 0;
+}
+
 .userflow h1 {
   text-align: center;
 }
@@ -164,6 +172,10 @@ p {
   background-repeat: repeat-x;
   background-size: cover;
   height: 6rem;
+}
+
+.second-bg {
+  background-color: #1c1c2c;
 }
 
 .ui-con {

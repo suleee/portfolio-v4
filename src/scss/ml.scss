@@ -20,7 +20,7 @@ li {
     #281c26 98%,
     #0c0d14 10%
   );
-} 
+}
 
 .herobanner {
   background-image: url("../images/ml/ml-herobanner.jpg");
@@ -82,11 +82,17 @@ li {
   }
 }
 
-.bg1 {
+.bg0 {
   background-color: #0e0d13;
   background-image: url("../images/ml/bg-pattern.jpg");
   background-position: center;
   background-repeat: repeat;
+}
+
+.bg1 {
+  // background-color: #101426;
+  background-color: #0e0d13;
+  // background-color: #13131a;
 }
 
 .bg2 {
@@ -100,6 +106,10 @@ li {
 
 .bg3 {
   background-color: rgba(7, 7, 9, 0.5);
+}
+
+.bg4 {
+  background-color: #13131a;
 }
 
 hr {
@@ -150,7 +160,7 @@ hr {
 .qa,
 .final-work,
 .ux,
-.final{
+.final {
   padding-top: $space-content-top;
   padding-bottom: $space-content-bottom;
 }
@@ -161,8 +171,8 @@ hr {
 }
 
 .research {
-  margin-top: $space-content-top;
-  margin-bottom: $space-content-bottom;
+  padding-top: $space-content-top;
+  padding-bottom: $space-content-bottom;
 }
 
 .summary {
@@ -202,7 +212,6 @@ h4 {
   font-weight: 400;
 }
 
-
 .challenges {
   li {
     padding-bottom: 10px;
@@ -216,7 +225,7 @@ h4 {
   .font-img {
     width: 74%;
   }
-} 
+}
 
 .menu {
   height: 52px;
@@ -224,7 +233,7 @@ h4 {
   position: absolute;
   width: 100%;
   h1 {
-    color: white; 
+    color: white;
     font-size: 24px;
   }
   .works {
@@ -269,11 +278,11 @@ h4 {
     padding: 8px;
   }
 }
-.link{
+.link {
   // color:#00a6ff;
   color: white;
   text-decoration: underline;
-  &:hover{
-    color:#00a6ff;
+  &:hover {
+    color: #00a6ff;
   }
- }
+}
